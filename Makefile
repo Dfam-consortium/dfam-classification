@@ -20,11 +20,16 @@ build: validate
 roundtrip: build
 	$(PYTHON) scripts/check_roundtrip.py
 
-# No term of the last release may have disappeared. Looks for the newest
-# release tag before this commit, so it also works on a tagged commit.
+# No term of the last release may have disappeared. Compares with the
+# newest release tag at or before this commit. On a release commit whose
+# terms.tsv is untouched, that would be the release itself, so it looks
+# one commit further back.
 check-previous:
 	@mkdir -p build; \
-	prev=$$(git describe --tags --abbrev=0 --match 'v[0-9]*' --exclude '*-*' HEAD^ 2>/dev/null); \
+	at=HEAD; \
+	if git describe --tags --exact-match --match 'v[0-9]*' --exclude '*-*' HEAD >/dev/null 2>&1 \
+	   && git diff --quiet HEAD -- terms.tsv; then at=HEAD^; fi; \
+	prev=$$(git describe --tags --abbrev=0 --match 'v[0-9]*' --exclude '*-*' $$at 2>/dev/null); \
 	if [ -z "$$prev" ]; then echo "no earlier release tag; nothing to compare"; exit 0; fi; \
 	git show "$$prev:terms.tsv" > build/previous-terms.tsv && \
 	echo "comparing with $$prev" && \

@@ -13,7 +13,7 @@ Releases, with the built files attached, are on its releases page.
 | File | Contents |
 |---|---|
 | `terms.tsv` | One row per term. This is the file curators edit. |
-| `mappings.sssom.tsv` | Equivalent classes in Repbase, Wicker, Curcio-Derbyshire and Piegu |
+| `mappings.sssom.tsv` | Equivalent classes in Wicker, Curcio-Derbyshire and Piegu |
 | `synonyms.tsv` | Other names a term goes by, such as Wicker's three-letter codes |
 | `last-id` | Highest ID number ever issued |
 | `VERSION` | Version being prepared |
@@ -44,13 +44,14 @@ release.
 
 `make` writes to `build/`:
 
-- `TEClasses.tsv`, the familiar eleven-column layout with an `id` column
-  added in front.
+- `TEClasses.tsv`, the Dfam 4.0 layout with an `id` column added in
+  front. Since 2.0.0 it has no `repbase_equiv` column, because Repbase
+  merged into Dfam.
 - `paths.tsv`, mapping each known path to its ID and current path.
 
-`make roundtrip` checks that the 1.0.0 build reproduces the Dfam 4.0 file,
-apart from six encoding and whitespace fixes. Once terms change, the
-check no longer applies.
+`make roundtrip` checked that the 1.0.0 build reproduced the Dfam 4.0
+file, apart from six encoding and whitespace fixes. It only works on a
+checkout of `v1.0.0`.
 
 The scripts use only the Python standard library. We have run them with
 Python 3.12 only.

@@ -1,14 +1,22 @@
 id	synonym	scope	comment
 DFC:0000012	Class II transposable elements	related	
 DFC:0000015	DMM	related	
-DFC:0000015	Polinton	related	
+DFC:0000015	Polinton	exact	
+DFC:0000016	Maverick-Mavirus	exact	
 DFC:0000017	DHH	related	
 DFC:0000017	RC	related	
 DFC:0000017	Y2-transposon	related	
+DFC:0000017	Helicase	exact	
 DFC:0000021	DDE-transposon	related	
 DFC:0000021	TIR	related	
+DFC:0000021	Transposase	exact	
+DFC:0000023	Academ-1	exact	
+DFC:0000025	Academ-2	exact	
+DFC:0000025	Academ-H	exact	
 DFC:0000026	DTC	related	
+DFC:0000026	CACTA	exact	
 DFC:0000033	DTR	related	
+DFC:0000038	GingerRoot	exact	
 DFC:0000044	DTE	related	
 DFC:0000045	DTM	related	
 DFC:0000051	DTH	related	
@@ -22,17 +30,29 @@ DFC:0000103	DYC	related
 DFC:0000113	Class I transposable elements	related	
 DFC:0000114	non-LTR	related	
 DFC:0000114	TP-retrotransposons	related	
+DFC:0000117	Genie	narrow	
+DFC:0000117	CRE-1	narrow	
+DFC:0000117	CRE-2	narrow	
 DFC:0000124	RIL	related	
+DFC:0000127	Zorro	narrow	
+DFC:0000128	DRE	exact	
+DFC:0000138	Dualen	exact	
+DFC:0000143	Zenon	narrow	
 DFC:0000150	RII	related	
 DFC:0000151	RIJ	related	
 DFC:0000156	RIT	related	
+DFC:0000156	ORTE	narrow	
+DFC:0000156	RTE	narrow	
+DFC:0000161	RTE-X	exact	
 DFC:0000172	RSS	related	
 DFC:0000172	SINE3	related	
 DFC:0000182	RSL	related	
 DFC:0000182	SINE1	related	
 DFC:0000196	RST	related	
 DFC:0000196	SINE2	related	
+DFC:0000227	Tad1_End	exact	
 DFC:0000251	LTR element	related	
+DFC:0000251	TRIM	narrow	
 DFC:0000252	RLB	related	
 DFC:0000254	RLG	related	
 DFC:0000254	Ty3-Gypsy	related	
@@ -41,7 +61,12 @@ DFC:0000258	RLE	related
 DFC:0000267	Foamy virus	related	
 DFC:0000269	RLC	related	
 DFC:0000270	RPP	related	
+DFC:0000275	Chlamys	exact	
 DFC:0000279	Y-retrotransposons	related	
 DFC:0000280	RYD	related	
 DFC:0000282	RYN	related	
 DFC:0000285	RYV	related	
+DFC:0000286	Other	broad	
+DFC:0000300	Pseudogene	broad	
+DFC:0000300	RNA	exact	
+DFC:0000304	Banshee	exact	

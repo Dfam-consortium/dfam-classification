@@ -2,7 +2,8 @@
 """Build release artifacts from terms.tsv and mappings.sssom.tsv.
 
 Writes to the output directory:
-  TEClasses.tsv  the legacy eleven-column layout with an id column first.
+  TEClasses.tsv  the Dfam 4.0 layout without repbase_equiv, with an id
+                 column first.
                  Counts come from --counts and are blank without it.
   paths.tsv      every path any release has used, the first and last
                  versions in which it named a term, that term's ID,
@@ -17,11 +18,18 @@ import os
 import dfc
 
 
+# Repbase merged into Dfam at 2.0.0, so the Dfam 4.0 layout loses its
+# repbase_equiv column here.
+EQUIV = {source: column for source, column in dfc.LEGACY_EQUIV.items()
+         if source != "Repbase"}
+FIELDS = [f for f in dfc.LEGACY_FIELDS if f != "repbase_equiv"]
+
+
 def legacy_rows(terms, mappings, counts):
     paths = dfc.paths_by_id(terms)
     equiv = {}
     for m in mappings:
-        column = dfc.LEGACY_EQUIV.get(m["object_source"])
+        column = EQUIV.get(m["object_source"])
         if column:
             equiv.setdefault(m["subject_id"], {})[column] = m["object_label"]
     for t in dfc.tree_order(terms):
@@ -35,7 +43,7 @@ def legacy_rows(terms, mappings, counts):
             "repeatmasker_type": t["rm_type"],
             "repeatmasker_subtype": t["rm_subtype"],
         }
-        for column in dfc.LEGACY_EQUIV.values():
+        for column in EQUIV.values():
             row[column] = equiv.get(t["id"], {}).get(column, "")
         yield row
 
@@ -98,7 +106,7 @@ def main():
 
     os.makedirs(args.out, exist_ok=True)
     dfc.write_tsv(os.path.join(args.out, "TEClasses.tsv"),
-                  ["id"] + dfc.LEGACY_FIELDS,
+                  ["id"] + FIELDS,
                   legacy_rows(terms, mappings, counts))
     dfc.write_tsv(os.path.join(args.out, "paths.tsv"), PATH_FIELDS,
                   path_rows(terms, previous, dfc.read_version(),

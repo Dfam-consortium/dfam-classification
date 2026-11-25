@@ -5,577 +5,383 @@
 #mapping_set_id: https://dfam.org/classification/mappings.sssom.tsv
 #license: https://creativecommons.org/publicdomain/zero/1.0/
 subject_id	subject_label	predicate_id	object_label	object_source	mapping_justification	comment
-DFC:0000015	Maverick	skos:closeMatch	DNA/Polinton	Repbase	semapv:ManualMappingCuration	
 DFC:0000015	Maverick	skos:closeMatch	D/M (Maverick)/M (Maverick)	Wicker	semapv:ManualMappingCuration	
-DFC:0000016	Maverick-Mavirus	skos:closeMatch	DNA/Polinton	Repbase	semapv:ManualMappingCuration	
-DFC:0000016	Maverick-Mavirus	skos:closeMatch	D/M (Maverick)/M (Maverick)	Wicker	semapv:ManualMappingCuration	
-DFC:0000017	Helicase	skos:closeMatch	DNA	Repbase	semapv:ManualMappingCuration	
-DFC:0000017	Helicase	skos:closeMatch	D/H/H	Wicker	semapv:ManualMappingCuration	
-DFC:0000018	Helentron	skos:closeMatch	DNA/Helentron	Repbase	semapv:ManualMappingCuration	
-DFC:0000019	Helitron-1	skos:closeMatch	DNA/Helitron	Repbase	semapv:ManualMappingCuration	
+DFC:0000016	Mavirus	skos:closeMatch	D/M (Maverick)/M (Maverick)	Wicker	semapv:ManualMappingCuration	
+DFC:0000017	HUH_Transposase	skos:closeMatch	D/H/H	Wicker	semapv:ManualMappingCuration	
 DFC:0000019	Helitron-1	skos:closeMatch	D/H/H (Helitron)	Wicker	semapv:ManualMappingCuration	
 DFC:0000019	Helitron-1	skos:closeMatch	Y2-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000020	Helitron-2	skos:closeMatch	DNA/Helitron	Repbase	semapv:ManualMappingCuration	
 DFC:0000020	Helitron-2	skos:closeMatch	D/H/H (Helitron)	Wicker	semapv:ManualMappingCuration	
 DFC:0000020	Helitron-2	skos:closeMatch	Y2-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000021	Transposase	skos:closeMatch	DNA	Repbase	semapv:ManualMappingCuration	
-DFC:0000021	Transposase	skos:closeMatch	D	Wicker	semapv:ManualMappingCuration	
-DFC:0000023	Academ-1	skos:closeMatch	DNA/Academ	Repbase	semapv:ManualMappingCuration	
-DFC:0000023	Academ-1	skos:closeMatch	D/T (TIR)	Wicker	semapv:ManualMappingCuration	
-DFC:0000023	Academ-1	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000023	Academ-1	skos:closeMatch	DDE-transposons/CutOPasI/Academ	Piegu	semapv:ManualMappingCuration	
-DFC:0000024	Academ-2	skos:closeMatch	DNA/Academ	Repbase	semapv:ManualMappingCuration	
+DFC:0000021	DDE_Transposase	skos:closeMatch	D	Wicker	semapv:ManualMappingCuration	
+DFC:0000023	AcademX	skos:closeMatch	D/T (TIR)	Wicker	semapv:ManualMappingCuration	
+DFC:0000023	AcademX	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
+DFC:0000023	AcademX	skos:closeMatch	DDE-transposons/CutOPasI/Academ	Piegu	semapv:ManualMappingCuration	
 DFC:0000024	Academ-2	skos:closeMatch	D/T (TIR)	Wicker	semapv:ManualMappingCuration	
 DFC:0000024	Academ-2	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000024	Academ-2	skos:closeMatch	DDE-transposons/CutOPasI/Academ	Piegu	semapv:ManualMappingCuration	
-DFC:0000025	Academ-H	skos:closeMatch	DNA/Academ	Repbase	semapv:ManualMappingCuration	
-DFC:0000025	Academ-H	skos:closeMatch	D/T (TIR)	Wicker	semapv:ManualMappingCuration	
-DFC:0000025	Academ-H	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000025	Academ-H	skos:closeMatch	DDE-transposons/CutOPasI/Academ	Piegu	semapv:ManualMappingCuration	
-DFC:0000029	Chapaev	skos:closeMatch	DNA/Enspm/Cacta	Repbase	semapv:ManualMappingCuration	
+DFC:0000025	AcademH	skos:closeMatch	D/T (TIR)	Wicker	semapv:ManualMappingCuration	
+DFC:0000025	AcademH	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
+DFC:0000025	AcademH	skos:closeMatch	DDE-transposons/CutOPasI/Academ	Piegu	semapv:ManualMappingCuration	
 DFC:0000029	Chapaev	skos:closeMatch	D/T (TIR)/C (CACTA)	Wicker	semapv:ManualMappingCuration	
 DFC:0000029	Chapaev	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000029	Chapaev	skos:closeMatch	DDE-transposons/CutOPasI/CMC	Piegu	semapv:ManualMappingCuration	
-DFC:0000030	Chapaev-3	skos:closeMatch	DNA/Enspm/Cacta	Repbase	semapv:ManualMappingCuration	
 DFC:0000030	Chapaev-3	skos:closeMatch	D/T (TIR)/C (CACTA)	Wicker	semapv:ManualMappingCuration	
 DFC:0000030	Chapaev-3	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000030	Chapaev-3	skos:closeMatch	DDE-transposons/CutOPasI/CMC	Piegu	semapv:ManualMappingCuration	
-DFC:0000031	EnSpm	skos:closeMatch	DNA/Enspm/Cacta	Repbase	semapv:ManualMappingCuration	
 DFC:0000031	EnSpm	skos:closeMatch	D/T (TIR)/C (CACTA)	Wicker	semapv:ManualMappingCuration	
 DFC:0000031	EnSpm	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000031	EnSpm	skos:closeMatch	DDE-transposons/CutOPasI/CMC	Piegu	semapv:ManualMappingCuration	
-DFC:0000032	Mirage	skos:closeMatch	DNA/Enspm/Cacta	Repbase	semapv:ManualMappingCuration	
 DFC:0000032	Mirage	skos:closeMatch	D/T (TIR)/C (CACTA)	Wicker	semapv:ManualMappingCuration	
 DFC:0000032	Mirage	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000032	Mirage	skos:closeMatch	DDE-transposons/CutOPasI/CMC	Piegu	semapv:ManualMappingCuration	
-DFC:0000033	Transib	skos:closeMatch	DNA/Enspm/Cacta	Repbase	semapv:ManualMappingCuration	
 DFC:0000033	Transib	skos:closeMatch	D/T (TIR)/R (Transib)	Wicker	semapv:ManualMappingCuration	
 DFC:0000033	Transib	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000033	Transib	skos:closeMatch	DDE-transposons/CutOPasI/CMC	Piegu	semapv:ManualMappingCuration	
-DFC:0000034	Dada	skos:closeMatch	DNA/Dada	Repbase	semapv:ManualMappingCuration	
 DFC:0000034	Dada	skos:closeMatch	D/T (TIR)	Wicker	semapv:ManualMappingCuration	
 DFC:0000034	Dada	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000034	Dada	skos:closeMatch	DDE-transposons/CutOPasI/Dada	Piegu	semapv:ManualMappingCuration	
-DFC:0000035	Ginger	skos:closeMatch	DNA/Ginger1	Repbase	semapv:ManualMappingCuration	
 DFC:0000035	Ginger	skos:closeMatch	D/T (TIR)	Wicker	semapv:ManualMappingCuration	
 DFC:0000035	Ginger	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000035	Ginger	skos:closeMatch	DDE-transposons	Piegu	semapv:ManualMappingCuration	
-DFC:0000036	Ginger-1	skos:closeMatch	DNA/Ginger1	Repbase	semapv:ManualMappingCuration	
 DFC:0000036	Ginger-1	skos:closeMatch	D/T (TIR)	Wicker	semapv:ManualMappingCuration	
 DFC:0000036	Ginger-1	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000036	Ginger-1	skos:closeMatch	DDE-transposons	Piegu	semapv:ManualMappingCuration	
-DFC:0000037	Ginger-2	skos:closeMatch	DNA/Ginger2	Repbase	semapv:ManualMappingCuration	
 DFC:0000037	Ginger-2	skos:closeMatch	D/T (TIR)	Wicker	semapv:ManualMappingCuration	
 DFC:0000037	Ginger-2	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000037	Ginger-2	skos:closeMatch	DDE-transposons	Piegu	semapv:ManualMappingCuration	
-DFC:0000038	IS3EU	skos:closeMatch	DNA/IS3EU	Repbase	semapv:ManualMappingCuration	
 DFC:0000038	IS3EU	skos:closeMatch	D	Wicker	semapv:ManualMappingCuration	
 DFC:0000038	IS3EU	skos:closeMatch	DDE-transposons/CopOPasI/IS3	Piegu	semapv:ManualMappingCuration	
-DFC:0000040	Hydra-specific_Branch	skos:closeMatch	DNA/Kolobok	Repbase	semapv:ManualMappingCuration	
 DFC:0000040	Hydra-specific_Branch	skos:closeMatch	D/T (TIR)	Wicker	semapv:ManualMappingCuration	
 DFC:0000040	Hydra-specific_Branch	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000040	Hydra-specific_Branch	skos:closeMatch	DDE-transposons/CutOPasI/Kolobok	Piegu	semapv:ManualMappingCuration	
-DFC:0000041	Kolobok-E	skos:closeMatch	DNA/KolobokE	Repbase	semapv:ManualMappingCuration	
 DFC:0000041	Kolobok-E	skos:closeMatch	D/T (TIR)	Wicker	semapv:ManualMappingCuration	
 DFC:0000041	Kolobok-E	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000041	Kolobok-E	skos:closeMatch	DDE-transposons/CutOPasI/Kolobok	Piegu	semapv:ManualMappingCuration	
-DFC:0000042	Kolobok-H	skos:closeMatch	DNA/	Repbase	semapv:ManualMappingCuration	
 DFC:0000042	Kolobok-H	skos:closeMatch	D/T (TIR)	Wicker	semapv:ManualMappingCuration	
 DFC:0000042	Kolobok-H	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000042	Kolobok-H	skos:closeMatch	DDE-transposons/CutOPasI/Kolobok	Piegu	semapv:ManualMappingCuration	
-DFC:0000043	T2	skos:closeMatch	DNA/Kolobok	Repbase	semapv:ManualMappingCuration	
 DFC:0000043	T2	skos:closeMatch	D/T (TIR)	Wicker	semapv:ManualMappingCuration	
 DFC:0000043	T2	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000043	T2	skos:closeMatch	DDE-transposons/CutOPasI/Kolobok	Piegu	semapv:ManualMappingCuration	
-DFC:0000044	Merlin	skos:closeMatch	DNA/Merlin	Repbase	semapv:ManualMappingCuration	
 DFC:0000044	Merlin	skos:closeMatch	D/T (TIR)/E (Merlin)	Wicker	semapv:ManualMappingCuration	
 DFC:0000044	Merlin	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000044	Merlin	skos:closeMatch	DDE-transposons/CutOPasI/IS1595-Merlin	Piegu	semapv:ManualMappingCuration	
-DFC:0000045	Mutator-like	skos:closeMatch	DNA/MuDR	Repbase	semapv:ManualMappingCuration	
 DFC:0000045	Mutator-like	skos:closeMatch	D/T (TIR)/M (Mutator)	Wicker	semapv:ManualMappingCuration	
 DFC:0000045	Mutator-like	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000045	Mutator-like	skos:closeMatch	DDE-transposons/CutOPasI/IS256/MuDR/Mutator/Rehavkus	Piegu	semapv:ManualMappingCuration	
-DFC:0000046	F	skos:closeMatch	DNA/MuDRF	Repbase	semapv:ManualMappingCuration	
 DFC:0000046	F	skos:closeMatch	D/T (TIR)/M (Mutator)	Wicker	semapv:ManualMappingCuration	
 DFC:0000046	F	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000046	F	skos:closeMatch	DDE-transposons/CutOPasI/IS256/MuDR/Mutator/Rehavkus	Piegu	semapv:ManualMappingCuration	
-DFC:0000047	MuDR	skos:closeMatch	DNA/MuDR	Repbase	semapv:ManualMappingCuration	
 DFC:0000047	MuDR	skos:closeMatch	D/T (TIR)/M (Mutator)	Wicker	semapv:ManualMappingCuration	
 DFC:0000047	MuDR	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000047	MuDR	skos:closeMatch	DDE-transposons/CutOPasI/IS256/MuDR/Mutator/Rehavkus	Piegu	semapv:ManualMappingCuration	
-DFC:0000048	NOF	skos:closeMatch	DNA/MuDR	Repbase	semapv:ManualMappingCuration	
 DFC:0000048	NOF	skos:closeMatch	D/T (TIR)/M (Mutator)	Wicker	semapv:ManualMappingCuration	
 DFC:0000048	NOF	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000048	NOF	skos:closeMatch	DDE-transposons/CutOPasI/IS256/MuDR/Mutator/Rehavkus	Piegu	semapv:ManualMappingCuration	
-DFC:0000049	Ricksha	skos:closeMatch	DNA/MuDR	Repbase	semapv:ManualMappingCuration	
 DFC:0000049	Ricksha	skos:closeMatch	D/T (TIR)/M (Mutator)	Wicker	semapv:ManualMappingCuration	
 DFC:0000049	Ricksha	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000049	Ricksha	skos:closeMatch	DDE-transposons/CutOPasI/IS256/MuDR/Mutator/Rehavkus	Piegu	semapv:ManualMappingCuration	
-DFC:0000050	Novosib	skos:closeMatch	DNA/Novosib	Repbase	semapv:ManualMappingCuration	
 DFC:0000050	Novosib	skos:closeMatch	D	Wicker	semapv:ManualMappingCuration	
-DFC:0000052	HarbS	skos:closeMatch	DNA/HarbS	Repbase	semapv:ManualMappingCuration	
 DFC:0000052	HarbS	skos:closeMatch	D/T (TIR)/H (PIF-Harbinger)	Wicker	semapv:ManualMappingCuration	
 DFC:0000052	HarbS	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000052	HarbS	skos:closeMatch	DDE-transposons/CutOPasI/IS5/PIF/Harbinger	Piegu	semapv:ManualMappingCuration	
-DFC:0000053	Harbinger	skos:closeMatch	DNA/Harbinger	Repbase	semapv:ManualMappingCuration	
 DFC:0000053	Harbinger	skos:closeMatch	D/T (TIR)/H (PIF-Harbinger)	Wicker	semapv:ManualMappingCuration	
 DFC:0000053	Harbinger	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000053	Harbinger	skos:closeMatch	DDE-transposons/CutOPasI/IS5/PIF/Harbinger	Piegu	semapv:ManualMappingCuration	
-DFC:0000054	ISL2EU	skos:closeMatch	DNA/ISL2EU	Repbase	semapv:ManualMappingCuration	
 DFC:0000054	ISL2EU	skos:closeMatch	D/T (TIR)/H (PIF-Harbinger)	Wicker	semapv:ManualMappingCuration	
 DFC:0000054	ISL2EU	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000054	ISL2EU	skos:closeMatch	DDE-transposons/CutOPasI/IS5/PIF/Harbinger	Piegu	semapv:ManualMappingCuration	
-DFC:0000055	Spy	skos:closeMatch	DNA/Harbinger	Repbase	semapv:ManualMappingCuration	
 DFC:0000055	Spy	skos:closeMatch	D/T (TIR)/H (PIF-Harbinger)	Wicker	semapv:ManualMappingCuration	
 DFC:0000055	Spy	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000055	Spy	skos:closeMatch	DDE-transposons/CutOPasI/IS5/PIF/Harbinger	Piegu	semapv:ManualMappingCuration	
-DFC:0000056	P_Element	skos:closeMatch	DNA/P	Repbase	semapv:ManualMappingCuration	
 DFC:0000056	P_Element	skos:closeMatch	D/T (TIR)/P	Wicker	semapv:ManualMappingCuration	
 DFC:0000056	P_Element	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000056	P_Element	skos:closeMatch	DDE-transposons/CutOPasI/P (?)	Piegu	semapv:ManualMappingCuration	
-DFC:0000057	Fungi-specific_Branch	skos:closeMatch	DNA/P	Repbase	semapv:ManualMappingCuration	
 DFC:0000057	Fungi-specific_Branch	skos:closeMatch	D/T (TIR)/P	Wicker	semapv:ManualMappingCuration	
 DFC:0000057	Fungi-specific_Branch	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000057	Fungi-specific_Branch	skos:closeMatch	DDE-transposons/CutOPasI/P (?)	Piegu	semapv:ManualMappingCuration	
-DFC:0000059	PiggyBac	skos:closeMatch	DNA/piggyBac	Repbase	semapv:ManualMappingCuration	
 DFC:0000059	PiggyBac	skos:closeMatch	D/T (TIR)/B (PiggyBac)	Wicker	semapv:ManualMappingCuration	
 DFC:0000059	PiggyBac	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000059	PiggyBac	skos:closeMatch	DDE-transposons/CutOPasI/ISI380/PiggyBac	Piegu	semapv:ManualMappingCuration	
-DFC:0000060	PiggyBac-A	skos:closeMatch	DNA/piggyBacA	Repbase	semapv:ManualMappingCuration	
 DFC:0000060	PiggyBac-A	skos:closeMatch	D/T (TIR)/B (PiggyBac)	Wicker	semapv:ManualMappingCuration	
 DFC:0000060	PiggyBac-A	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000060	PiggyBac-A	skos:closeMatch	DDE-transposons/CutOPasI/ISI380/PiggyBac	Piegu	semapv:ManualMappingCuration	
-DFC:0000061	PiggyBac-X	skos:closeMatch	DNA/piggyBacX	Repbase	semapv:ManualMappingCuration	
 DFC:0000061	PiggyBac-X	skos:closeMatch	D/T (TIR)/B (PiggyBac)	Wicker	semapv:ManualMappingCuration	
 DFC:0000061	PiggyBac-X	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000061	PiggyBac-X	skos:closeMatch	DDE-transposons/CutOPasI/ISI380/PiggyBac	Piegu	semapv:ManualMappingCuration	
-DFC:0000063	Sola-1	skos:closeMatch	DNA/Sola1	Repbase	semapv:ManualMappingCuration	
 DFC:0000063	Sola-1	skos:closeMatch	D/T (TIR)	Wicker	semapv:ManualMappingCuration	
 DFC:0000063	Sola-1	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000063	Sola-1	skos:closeMatch	DDE-transposons/CutOPasI/Sola	Piegu	semapv:ManualMappingCuration	
-DFC:0000064	Sola-2	skos:closeMatch	DNA/Sola2	Repbase	semapv:ManualMappingCuration	
 DFC:0000064	Sola-2	skos:closeMatch	D/T (TIR)	Wicker	semapv:ManualMappingCuration	
 DFC:0000064	Sola-2	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000064	Sola-2	skos:closeMatch	DDE-transposons/CutOPasI/Sola	Piegu	semapv:ManualMappingCuration	
-DFC:0000065	Sola-3	skos:closeMatch	DNA/Sola3	Repbase	semapv:ManualMappingCuration	
 DFC:0000065	Sola-3	skos:closeMatch	D/T (TIR)	Wicker	semapv:ManualMappingCuration	
 DFC:0000065	Sola-3	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000065	Sola-3	skos:closeMatch	DDE-transposons/CutOPasI/Sola	Piegu	semapv:ManualMappingCuration	
-DFC:0000066	Tc1-Mariner	skos:closeMatch	DNA/Mariner	Repbase	semapv:ManualMappingCuration	
 DFC:0000066	Tc1-Mariner	skos:closeMatch	D/T (TIR)/T (Tc1-Mariner)	Wicker	semapv:ManualMappingCuration	
 DFC:0000066	Tc1-Mariner	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000066	Tc1-Mariner	skos:closeMatch	DDE-transposons/CutOPasI/ITM (IS630/Tc1/Mariner)/Zator	Piegu	semapv:ManualMappingCuration	
-DFC:0000067	Ant1	skos:closeMatch	DNA/Mariner	Repbase	semapv:ManualMappingCuration	
 DFC:0000067	Ant1	skos:closeMatch	D/T (TIR)/T (Tc1-Mariner)	Wicker	semapv:ManualMappingCuration	
 DFC:0000067	Ant1	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000067	Ant1	skos:closeMatch	DDE-transposons/CutOPasI/ITM (IS630/Tc1/Mariner)/Zator	Piegu	semapv:ManualMappingCuration	
-DFC:0000068	Cweed	skos:closeMatch	DNA/Mariner	Repbase	semapv:ManualMappingCuration	
 DFC:0000068	Cweed	skos:closeMatch	D/T (TIR)/T (Tc1-Mariner)	Wicker	semapv:ManualMappingCuration	
 DFC:0000068	Cweed	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000068	Cweed	skos:closeMatch	DDE-transposons/CutOPasI/ITM (IS630/Tc1/Mariner)/Zator	Piegu	semapv:ManualMappingCuration	
-DFC:0000069	Gizmo	skos:closeMatch	DNA/Mariner	Repbase	semapv:ManualMappingCuration	
 DFC:0000069	Gizmo	skos:closeMatch	D/T (TIR)/T (Tc1-Mariner)	Wicker	semapv:ManualMappingCuration	
 DFC:0000069	Gizmo	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000069	Gizmo	skos:closeMatch	DDE-transposons/CutOPasI/ITM (IS630/Tc1/Mariner)/Zator	Piegu	semapv:ManualMappingCuration	
-DFC:0000070	IS885	skos:closeMatch	DNA/Mariner	Repbase	semapv:ManualMappingCuration	
 DFC:0000070	IS885	skos:closeMatch	D/T (TIR)/T (Tc1-Mariner)	Wicker	semapv:ManualMappingCuration	
 DFC:0000070	IS885	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000070	IS885	skos:closeMatch	DDE-transposons/CutOPasI/ITM (IS630/Tc1/Mariner)/Zator	Piegu	semapv:ManualMappingCuration	
-DFC:0000071	ISRm11	skos:closeMatch	DNA/Mariner	Repbase	semapv:ManualMappingCuration	
 DFC:0000071	ISRm11	skos:closeMatch	D/T (TIR)/T (Tc1-Mariner)	Wicker	semapv:ManualMappingCuration	
 DFC:0000071	ISRm11	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000071	ISRm11	skos:closeMatch	DDE-transposons/CutOPasI/ITM (IS630/Tc1/Mariner)/Zator	Piegu	semapv:ManualMappingCuration	
-DFC:0000072	Mariner	skos:closeMatch	DNA/Mariner	Repbase	semapv:ManualMappingCuration	
 DFC:0000072	Mariner	skos:closeMatch	D/T (TIR)/T (Tc1-Mariner)	Wicker	semapv:ManualMappingCuration	
 DFC:0000072	Mariner	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000072	Mariner	skos:closeMatch	DDE-transposons/CutOPasI/ITM (IS630/Tc1/Mariner)/Zator	Piegu	semapv:ManualMappingCuration	
-DFC:0000073	Mogwai	skos:closeMatch	DNA/Mariner	Repbase	semapv:ManualMappingCuration	
 DFC:0000073	Mogwai	skos:closeMatch	D/T (TIR)/T (Tc1-Mariner)	Wicker	semapv:ManualMappingCuration	
 DFC:0000073	Mogwai	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000073	Mogwai	skos:closeMatch	DDE-transposons/CutOPasI/ITM (IS630/Tc1/Mariner)/Zator	Piegu	semapv:ManualMappingCuration	
-DFC:0000074	Sagan	skos:closeMatch	DNA/Mariner	Repbase	semapv:ManualMappingCuration	
 DFC:0000074	Sagan	skos:closeMatch	D/T (TIR)/T (Tc1-Mariner)	Wicker	semapv:ManualMappingCuration	
 DFC:0000074	Sagan	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000074	Sagan	skos:closeMatch	DDE-transposons/CutOPasI/ITM (IS630/Tc1/Mariner)/Zator	Piegu	semapv:ManualMappingCuration	
-DFC:0000075	Stowaway	skos:closeMatch	DNA/Mariner	Repbase	semapv:ManualMappingCuration	
 DFC:0000075	Stowaway	skos:closeMatch	D/T (TIR)/T (Tc1-Mariner)	Wicker	semapv:ManualMappingCuration	
 DFC:0000075	Stowaway	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000075	Stowaway	skos:closeMatch	DDE-transposons/CutOPasI/ITM (IS630/Tc1/Mariner)/Zator	Piegu	semapv:ManualMappingCuration	
-DFC:0000076	Tc1	skos:closeMatch	DNA/Mariner	Repbase	semapv:ManualMappingCuration	
 DFC:0000076	Tc1	skos:closeMatch	D/T (TIR)/T (Tc1-Mariner)	Wicker	semapv:ManualMappingCuration	
 DFC:0000076	Tc1	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000076	Tc1	skos:closeMatch	DDE-transposons/CutOPasI/ITM (IS630/Tc1/Mariner)/Zator	Piegu	semapv:ManualMappingCuration	
-DFC:0000078	Fot1	skos:closeMatch	DNA/Mariner	Repbase	semapv:ManualMappingCuration	
 DFC:0000078	Fot1	skos:closeMatch	D/T (TIR)/T (Tc1-Mariner)	Wicker	semapv:ManualMappingCuration	
 DFC:0000078	Fot1	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000078	Fot1	skos:closeMatch	DDE-transposons/CutOPasI/ITM (IS630/Tc1/Mariner)/Zator	Piegu	semapv:ManualMappingCuration	
-DFC:0000079	Pogo	skos:closeMatch	DNA/Mariner	Repbase	semapv:ManualMappingCuration	
 DFC:0000079	Pogo	skos:closeMatch	D/T (TIR)/T (Tc1-Mariner)	Wicker	semapv:ManualMappingCuration	
 DFC:0000079	Pogo	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000079	Pogo	skos:closeMatch	DDE-transposons/CutOPasI/ITM (IS630/Tc1/Mariner)/Zator	Piegu	semapv:ManualMappingCuration	
-DFC:0000080	Tc2	skos:closeMatch	DNA/Mariner	Repbase	semapv:ManualMappingCuration	
 DFC:0000080	Tc2	skos:closeMatch	D/T (TIR)/T (Tc1-Mariner)	Wicker	semapv:ManualMappingCuration	
 DFC:0000080	Tc2	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000080	Tc2	skos:closeMatch	DDE-transposons/CutOPasI/ITM (IS630/Tc1/Mariner)/Zator	Piegu	semapv:ManualMappingCuration	
-DFC:0000081	Tigger	skos:closeMatch	DNA/Mariner	Repbase	semapv:ManualMappingCuration	
 DFC:0000081	Tigger	skos:closeMatch	D/T (TIR)/T (Tc1-Mariner)	Wicker	semapv:ManualMappingCuration	
 DFC:0000081	Tigger	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000081	Tigger	skos:closeMatch	DDE-transposons/CutOPasI/ITM (IS630/Tc1/Mariner)/Zator	Piegu	semapv:ManualMappingCuration	
-DFC:0000082	Tc4	skos:closeMatch	DNA/Mariner	Repbase	semapv:ManualMappingCuration	
 DFC:0000082	Tc4	skos:closeMatch	D/T (TIR)/T (Tc1-Mariner)	Wicker	semapv:ManualMappingCuration	
 DFC:0000082	Tc4	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000082	Tc4	skos:closeMatch	DDE-transposons/CutOPasI/ITM (IS630/Tc1/Mariner)/Zator	Piegu	semapv:ManualMappingCuration	
-DFC:0000083	m44	skos:closeMatch	DNA/Mariner	Repbase	semapv:ManualMappingCuration	
 DFC:0000083	m44	skos:closeMatch	D/T (TIR)/T (Tc1-Mariner)	Wicker	semapv:ManualMappingCuration	
 DFC:0000083	m44	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000083	m44	skos:closeMatch	DDE-transposons/CutOPasI/ITM (IS630/Tc1/Mariner)/Zator	Piegu	semapv:ManualMappingCuration	
-DFC:0000084	Zator	skos:closeMatch	DNA/Zator	Repbase	semapv:ManualMappingCuration	
 DFC:0000084	Zator	skos:closeMatch	D	Wicker	semapv:ManualMappingCuration	
 DFC:0000084	Zator	skos:closeMatch	DDE-transposons/CutOPasI/ITM (IS630/Tc1/Mariner)/Zator	Piegu	semapv:ManualMappingCuration	
-DFC:0000085	Zisupton	skos:closeMatch	DNA/Zisupton	Repbase	semapv:ManualMappingCuration	
 DFC:0000085	Zisupton	skos:closeMatch	D	Wicker	semapv:ManualMappingCuration	
 DFC:0000085	Zisupton	skos:closeMatch	Zisupton	Piegu	semapv:ManualMappingCuration	
-DFC:0000086	hAT	skos:closeMatch	DNA/hAT	Repbase	semapv:ManualMappingCuration	
 DFC:0000086	hAT	skos:closeMatch	D/T (TIR)/A (hAT)	Wicker	semapv:ManualMappingCuration	
 DFC:0000086	hAT	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000086	hAT	skos:closeMatch	DDE-transposons/CutOPasI/hAT	Piegu	semapv:ManualMappingCuration	
-DFC:0000087	Activator	skos:closeMatch	DNA/hAT	Repbase	semapv:ManualMappingCuration	
 DFC:0000087	Activator	skos:closeMatch	D/T (TIR)/A (hAT)	Wicker	semapv:ManualMappingCuration	
 DFC:0000087	Activator	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000087	Activator	skos:closeMatch	DDE-transposons/CutOPasI/hAT	Piegu	semapv:ManualMappingCuration	
-DFC:0000088	Blackjack	skos:closeMatch	DNA/hAT	Repbase	semapv:ManualMappingCuration	
 DFC:0000088	Blackjack	skos:closeMatch	D/T (TIR)/A (hAT)	Wicker	semapv:ManualMappingCuration	
 DFC:0000088	Blackjack	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000088	Blackjack	skos:closeMatch	DDE-transposons/CutOPasI/hAT	Piegu	semapv:ManualMappingCuration	
-DFC:0000089	Charlie	skos:closeMatch	DNA/hAT	Repbase	semapv:ManualMappingCuration	
 DFC:0000089	Charlie	skos:closeMatch	D/T (TIR)/A (hAT)	Wicker	semapv:ManualMappingCuration	
 DFC:0000089	Charlie	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000089	Charlie	skos:closeMatch	DDE-transposons/CutOPasI/hAT	Piegu	semapv:ManualMappingCuration	
-DFC:0000090	Pegasus	skos:closeMatch	DNA/hAT	Repbase	semapv:ManualMappingCuration	
 DFC:0000090	Pegasus	skos:closeMatch	D/T (TIR)/A (hAT)	Wicker	semapv:ManualMappingCuration	
 DFC:0000090	Pegasus	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000090	Pegasus	skos:closeMatch	DDE-transposons/CutOPasI/hAT	Piegu	semapv:ManualMappingCuration	
-DFC:0000091	Restless	skos:closeMatch	DNA/hAT	Repbase	semapv:ManualMappingCuration	
 DFC:0000091	Restless	skos:closeMatch	D/T (TIR)/A (hAT)	Wicker	semapv:ManualMappingCuration	
 DFC:0000091	Restless	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000091	Restless	skos:closeMatch	DDE-transposons/CutOPasI/hAT	Piegu	semapv:ManualMappingCuration	
-DFC:0000092	Tag1	skos:closeMatch	DNA/hAT	Repbase	semapv:ManualMappingCuration	
 DFC:0000092	Tag1	skos:closeMatch	D/T (TIR)/A (hAT)	Wicker	semapv:ManualMappingCuration	
 DFC:0000092	Tag1	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000092	Tag1	skos:closeMatch	DDE-transposons/CutOPasI/hAT	Piegu	semapv:ManualMappingCuration	
-DFC:0000093	Tip100	skos:closeMatch	DNA/hAT	Repbase	semapv:ManualMappingCuration	
 DFC:0000093	Tip100	skos:closeMatch	D/T (TIR)/A (hAT)	Wicker	semapv:ManualMappingCuration	
 DFC:0000093	Tip100	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000093	Tip100	skos:closeMatch	DDE-transposons/CutOPasI/hAT	Piegu	semapv:ManualMappingCuration	
-DFC:0000094	hAT1	skos:closeMatch	DNA/hAT1	Repbase	semapv:ManualMappingCuration	
 DFC:0000094	hAT1	skos:closeMatch	D/T (TIR)/A (hAT)	Wicker	semapv:ManualMappingCuration	
 DFC:0000094	hAT1	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000094	hAT1	skos:closeMatch	DDE-transposons/CutOPasI/hAT	Piegu	semapv:ManualMappingCuration	
-DFC:0000095	hAT19	skos:closeMatch	DNA/hAT19	Repbase	semapv:ManualMappingCuration	
 DFC:0000095	hAT19	skos:closeMatch	D/T (TIR)/A (hAT)	Wicker	semapv:ManualMappingCuration	
 DFC:0000095	hAT19	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000095	hAT19	skos:closeMatch	DDE-transposons/CutOPasI/hAT	Piegu	semapv:ManualMappingCuration	
-DFC:0000096	hAT5	skos:closeMatch	DNA/hAT5	Repbase	semapv:ManualMappingCuration	
 DFC:0000096	hAT5	skos:closeMatch	D/T (TIR)/A (hAT)	Wicker	semapv:ManualMappingCuration	
 DFC:0000096	hAT5	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000096	hAT5	skos:closeMatch	DDE-transposons/CutOPasI/hAT	Piegu	semapv:ManualMappingCuration	
-DFC:0000097	hAT6	skos:closeMatch	DNA/hATa	Repbase	semapv:ManualMappingCuration	
 DFC:0000097	hAT6	skos:closeMatch	D/T (TIR)/A (hAT)	Wicker	semapv:ManualMappingCuration	
 DFC:0000097	hAT6	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000097	hAT6	skos:closeMatch	DDE-transposons/CutOPasI/hAT	Piegu	semapv:ManualMappingCuration	
-DFC:0000098	hATm	skos:closeMatch	DNA/hATm	Repbase	semapv:ManualMappingCuration	
 DFC:0000098	hATm	skos:closeMatch	D/T (TIR)/A (hAT)	Wicker	semapv:ManualMappingCuration	
 DFC:0000098	hATm	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000098	hATm	skos:closeMatch	DDE-transposons/CutOPasI/hAT	Piegu	semapv:ManualMappingCuration	
-DFC:0000099	hATw	skos:closeMatch	DNA/hATw	Repbase	semapv:ManualMappingCuration	
 DFC:0000099	hATw	skos:closeMatch	D/T (TIR)/A (hAT)	Wicker	semapv:ManualMappingCuration	
 DFC:0000099	hATw	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000099	hATw	skos:closeMatch	DDE-transposons/CutOPasI/hAT	Piegu	semapv:ManualMappingCuration	
-DFC:0000100	hATx	skos:closeMatch	DNA/hATx	Repbase	semapv:ManualMappingCuration	
 DFC:0000100	hATx	skos:closeMatch	D/T (TIR)/A (hAT)	Wicker	semapv:ManualMappingCuration	
 DFC:0000100	hATx	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000100	hATx	skos:closeMatch	DDE-transposons/CutOPasI/hAT	Piegu	semapv:ManualMappingCuration	
-DFC:0000101	hobo	skos:closeMatch	DNA/hAT	Repbase	semapv:ManualMappingCuration	
 DFC:0000101	hobo	skos:closeMatch	D/T (TIR)/A (hAT)	Wicker	semapv:ManualMappingCuration	
 DFC:0000101	hobo	skos:closeMatch	DDE-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000101	hobo	skos:closeMatch	DDE-transposons/CutOPasI/hAT	Piegu	semapv:ManualMappingCuration	
-DFC:0000103	Crypton	skos:closeMatch	DNA/Crypton	Repbase	semapv:ManualMappingCuration	
 DFC:0000103	Crypton	skos:closeMatch	D/Y (Crypton)/C (Crypton)	Wicker	semapv:ManualMappingCuration	
 DFC:0000103	Crypton	skos:closeMatch	Y1-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000104	Crypton-A	skos:closeMatch	DNA/CryptonA	Repbase	semapv:ManualMappingCuration	
 DFC:0000104	Crypton-A	skos:closeMatch	D/Y (Crypton)/C (Crypton)	Wicker	semapv:ManualMappingCuration	
 DFC:0000104	Crypton-A	skos:closeMatch	Y1-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000105	Crypton-C	skos:closeMatch	DNA/CryptonC	Repbase	semapv:ManualMappingCuration	
 DFC:0000105	Crypton-C	skos:closeMatch	D/Y (Crypton)/C (Crypton)	Wicker	semapv:ManualMappingCuration	
 DFC:0000105	Crypton-C	skos:closeMatch	Y1-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000106	Crypton-F	skos:closeMatch	DNA/CryptonF	Repbase	semapv:ManualMappingCuration	
 DFC:0000106	Crypton-F	skos:closeMatch	D/Y (Crypton)/C (Crypton)	Wicker	semapv:ManualMappingCuration	
 DFC:0000106	Crypton-F	skos:closeMatch	Y1-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000107	Crypton-H	skos:closeMatch	DNA/CryptonH	Repbase	semapv:ManualMappingCuration	
 DFC:0000107	Crypton-H	skos:closeMatch	D/Y (Crypton)/C (Crypton)	Wicker	semapv:ManualMappingCuration	
 DFC:0000107	Crypton-H	skos:closeMatch	Y1-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000108	Crypton-I	skos:closeMatch	DNA/CryptonI	Repbase	semapv:ManualMappingCuration	
 DFC:0000108	Crypton-I	skos:closeMatch	D/Y (Crypton)/C (Crypton)	Wicker	semapv:ManualMappingCuration	
 DFC:0000108	Crypton-I	skos:closeMatch	Y1-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000109	Crypton-R	skos:closeMatch	DNA/CryptonR	Repbase	semapv:ManualMappingCuration	
 DFC:0000109	Crypton-R	skos:closeMatch	D/Y (Crypton)/C (Crypton)	Wicker	semapv:ManualMappingCuration	
 DFC:0000109	Crypton-R	skos:closeMatch	Y1-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000110	Crypton-S	skos:closeMatch	DNA/CryptonS	Repbase	semapv:ManualMappingCuration	
 DFC:0000110	Crypton-S	skos:closeMatch	D/Y (Crypton)/C (Crypton)	Wicker	semapv:ManualMappingCuration	
 DFC:0000110	Crypton-S	skos:closeMatch	Y1-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000111	Crypton-V	skos:closeMatch	DNA/CryptonV	Repbase	semapv:ManualMappingCuration	
 DFC:0000111	Crypton-V	skos:closeMatch	D/Y (Crypton)/C (Crypton)	Wicker	semapv:ManualMappingCuration	
 DFC:0000111	Crypton-V	skos:closeMatch	Y1-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000112	Crypton-X	skos:closeMatch	DNA/CryptonX	Repbase	semapv:ManualMappingCuration	
 DFC:0000112	Crypton-X	skos:closeMatch	D/Y (Crypton)/C (Crypton)	Wicker	semapv:ManualMappingCuration	
 DFC:0000112	Crypton-X	skos:closeMatch	Y1-transposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000114	LINE	skos:closeMatch	non-LTR/	Repbase	semapv:ManualMappingCuration	
 DFC:0000114	LINE	skos:closeMatch	R/I (LINE)	Wicker	semapv:ManualMappingCuration	
 DFC:0000114	LINE	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000116	Ambal	skos:closeMatch	non-LTR/Ambal	Repbase	semapv:ManualMappingCuration	
 DFC:0000116	Ambal	skos:closeMatch	R/I (LINE)	Wicker	semapv:ManualMappingCuration	
 DFC:0000116	Ambal	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000117	CRE	skos:closeMatch	non-LTR/CRE	Repbase	semapv:ManualMappingCuration	
 DFC:0000117	CRE	skos:closeMatch	R/I (LINE)	Wicker	semapv:ManualMappingCuration	
 DFC:0000117	CRE	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000118	CRE-1	skos:closeMatch	non-LTR/CRE	Repbase	semapv:ManualMappingCuration	
 DFC:0000118	CRE-1	skos:closeMatch	R/I (LINE)	Wicker	semapv:ManualMappingCuration	
 DFC:0000118	CRE-1	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000119	CRE-2	skos:closeMatch	non-LTR/CRE	Repbase	semapv:ManualMappingCuration	
 DFC:0000119	CRE-2	skos:closeMatch	R/I (LINE)	Wicker	semapv:ManualMappingCuration	
 DFC:0000119	CRE-2	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000120	Odin	skos:closeMatch	non-LTR/-	Repbase	semapv:ManualMappingCuration	
 DFC:0000120	Odin	skos:closeMatch	R/I (LINE)	Wicker	semapv:ManualMappingCuration	
 DFC:0000120	Odin	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000122	Genie	skos:closeMatch	non-LTR/-	Repbase	semapv:ManualMappingCuration	
 DFC:0000122	Genie	skos:closeMatch	R/I (LINE)	Wicker	semapv:ManualMappingCuration	
 DFC:0000122	Genie	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000125	DRE	skos:closeMatch	non-LTR/	Repbase	semapv:ManualMappingCuration	
 DFC:0000125	DRE	skos:closeMatch	R/I (LINE)/L (L1)	Wicker	semapv:ManualMappingCuration	
 DFC:0000125	DRE	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000127	L1	skos:closeMatch	non-LTR/L1	Repbase	semapv:ManualMappingCuration	
 DFC:0000127	L1	skos:closeMatch	R/I (LINE)/L (L1)	Wicker	semapv:ManualMappingCuration	
 DFC:0000127	L1	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000128	Tx1	skos:closeMatch	non-LTR/Tx1	Repbase	semapv:ManualMappingCuration	
 DFC:0000128	Tx1	skos:closeMatch	R/I (LINE)/L (L1)	Wicker	semapv:ManualMappingCuration	
 DFC:0000128	Tx1	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000129	Zorro	skos:closeMatch	non-LTR/	Repbase	semapv:ManualMappingCuration	
 DFC:0000129	Zorro	skos:closeMatch	R/I (LINE)/L (L1)	Wicker	semapv:ManualMappingCuration	
 DFC:0000129	Zorro	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000130	Proto-1	skos:closeMatch	non-LTR/Proto1	Repbase	semapv:ManualMappingCuration	
 DFC:0000130	Proto-1	skos:closeMatch	R/I (LINE)	Wicker	semapv:ManualMappingCuration	
 DFC:0000130	Proto-1	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000132	Hero	skos:closeMatch	non-LTR/Hero	Repbase	semapv:ManualMappingCuration	
 DFC:0000132	Hero	skos:closeMatch	R/I (LINE)	Wicker	semapv:ManualMappingCuration	
 DFC:0000132	Hero	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000133	NeSL	skos:closeMatch	non-LTR/NeSL	Repbase	semapv:ManualMappingCuration	
 DFC:0000133	NeSL	skos:closeMatch	R/I (LINE)	Wicker	semapv:ManualMappingCuration	
 DFC:0000133	NeSL	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000134	R2	skos:closeMatch	non-LTR/R2	Repbase	semapv:ManualMappingCuration	
 DFC:0000134	R2	skos:closeMatch	R/I (LINE)	Wicker	semapv:ManualMappingCuration	
 DFC:0000134	R2	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000136	Deceiver	skos:closeMatch	non-LTR/-	Repbase	semapv:ManualMappingCuration	
 DFC:0000136	Deceiver	skos:closeMatch	R/I (LINE)	Wicker	semapv:ManualMappingCuration	
 DFC:0000136	Deceiver	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000137	Dong-R4	skos:closeMatch	non-LTR/R4	Repbase	semapv:ManualMappingCuration	
 DFC:0000137	Dong-R4	skos:closeMatch	R/I (LINE)	Wicker	semapv:ManualMappingCuration	
 DFC:0000137	Dong-R4	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000138	Dualen	skos:closeMatch	non-LTR/RandI/Dualen	Repbase	semapv:ManualMappingCuration	
-DFC:0000138	Dualen	skos:closeMatch	R/I (LINE)	Wicker	semapv:ManualMappingCuration	
-DFC:0000138	Dualen	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000140	Proto-2	skos:closeMatch	non-LTR/Proto2	Repbase	semapv:ManualMappingCuration	
+DFC:0000138	RandI	skos:closeMatch	R/I (LINE)	Wicker	semapv:ManualMappingCuration	
+DFC:0000138	RandI	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000140	Proto-2	skos:closeMatch	R/I (LINE)	Wicker	semapv:ManualMappingCuration	
 DFC:0000140	Proto-2	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000143	CR1	skos:closeMatch	non-LTR/CR1	Repbase	semapv:ManualMappingCuration	
 DFC:0000143	CR1	skos:closeMatch	R/I (LINE)	Wicker	semapv:ManualMappingCuration	
 DFC:0000143	CR1	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000144	Zenon	skos:closeMatch	non-LTR/CR1	Repbase	semapv:ManualMappingCuration	
 DFC:0000144	Zenon	skos:closeMatch	R/I (LINE)	Wicker	semapv:ManualMappingCuration	
 DFC:0000144	Zenon	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000146	L2	skos:closeMatch	non-LTR/L2	Repbase	semapv:ManualMappingCuration	
 DFC:0000146	L2	skos:closeMatch	R/I (LINE)	Wicker	semapv:ManualMappingCuration	
 DFC:0000146	L2	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000147	Rex-Babar	skos:closeMatch	non-LTR/Rex1	Repbase	semapv:ManualMappingCuration	
 DFC:0000147	Rex-Babar	skos:closeMatch	R/I (LINE)	Wicker	semapv:ManualMappingCuration	
 DFC:0000147	Rex-Babar	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000150	I	skos:closeMatch	non-LTR/I + Nimb	Repbase	semapv:ManualMappingCuration	
 DFC:0000150	I	skos:closeMatch	R/I (LINE)/I	Wicker	semapv:ManualMappingCuration	
 DFC:0000150	I	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000151	Jockey	skos:closeMatch	non-LTR/Jockey	Repbase	semapv:ManualMappingCuration	
 DFC:0000151	Jockey	skos:closeMatch	R/I (LINE)/J (Jockey)	Wicker	semapv:ManualMappingCuration	
 DFC:0000151	Jockey	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000153	LOA	skos:closeMatch	non-LTR/Loa	Repbase	semapv:ManualMappingCuration	
 DFC:0000153	LOA	skos:closeMatch	R/I (LINE)	Wicker	semapv:ManualMappingCuration	
 DFC:0000153	LOA	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000154	R1	skos:closeMatch	non-LTR/R1	Repbase	semapv:ManualMappingCuration	
 DFC:0000154	R1	skos:closeMatch	R/I (LINE)	Wicker	semapv:ManualMappingCuration	
 DFC:0000154	R1	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000155	Tad1	skos:closeMatch	non-LTR/Tad1	Repbase	semapv:ManualMappingCuration	
 DFC:0000155	Tad1	skos:closeMatch	R/I (LINE)	Wicker	semapv:ManualMappingCuration	
 DFC:0000155	Tad1	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000156	RTE-like	skos:closeMatch	non-LTR/RTE	Repbase	semapv:ManualMappingCuration	
 DFC:0000156	RTE-like	skos:closeMatch	R/I (LINE)	Wicker	semapv:ManualMappingCuration	
 DFC:0000156	RTE-like	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000157	ORTE	skos:closeMatch	non-LTR/RTE	Repbase	semapv:ManualMappingCuration	
 DFC:0000157	ORTE	skos:closeMatch	R/I (LINE)/T (RTE)	Wicker	semapv:ManualMappingCuration	
 DFC:0000157	ORTE	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000159	BovB	skos:closeMatch	non-LTR/RTE (and 1 RTETP)	Repbase	semapv:ManualMappingCuration	
 DFC:0000159	BovB	skos:closeMatch	R/I (LINE)/T (RTE)	Wicker	semapv:ManualMappingCuration	
 DFC:0000159	BovB	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000160	RTE	skos:closeMatch	non-LTR/RTE	Repbase	semapv:ManualMappingCuration	
 DFC:0000160	RTE	skos:closeMatch	R/I (LINE)/T (RTE)	Wicker	semapv:ManualMappingCuration	
 DFC:0000160	RTE	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000161	RTE-X	skos:closeMatch	non-LTR/RTEX	Repbase	semapv:ManualMappingCuration	
-DFC:0000161	RTE-X	skos:closeMatch	R/I (LINE)/T (RTE)	Wicker	semapv:ManualMappingCuration	
-DFC:0000161	RTE-X	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000163	Lacking_Small_RNA_pol_III_Promoter	skos:closeMatch	non-LTR	Repbase	semapv:ManualMappingCuration	
+DFC:0000161	RTEX	skos:closeMatch	R/I (LINE)/T (RTE)	Wicker	semapv:ManualMappingCuration	
+DFC:0000161	RTEX	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
 DFC:0000163	Lacking_Small_RNA_pol_III_Promoter	skos:closeMatch	R	Wicker	semapv:ManualMappingCuration	
-DFC:0000164	I-derived	skos:closeMatch	SINE	Repbase	semapv:ManualMappingCuration	
 DFC:0000164	I-derived	skos:closeMatch	R/S (SINE)	Wicker	semapv:ManualMappingCuration	
-DFC:0000165	L1-dependent	skos:closeMatch	non-LTR	Repbase	semapv:ManualMappingCuration	
 DFC:0000165	L1-dependent	skos:closeMatch	R	Wicker	semapv:ManualMappingCuration	
-DFC:0000166	SVA	skos:closeMatch	non-LTR	Repbase	semapv:ManualMappingCuration	
 DFC:0000166	SVA	skos:closeMatch	R	Wicker	semapv:ManualMappingCuration	
-DFC:0000167	L1-derived	skos:closeMatch	SINE	Repbase	semapv:ManualMappingCuration	
 DFC:0000167	L1-derived	skos:closeMatch	R/S (SINE)	Wicker	semapv:ManualMappingCuration	
-DFC:0000168	L2-derived	skos:closeMatch	SINE	Repbase	semapv:ManualMappingCuration	
 DFC:0000168	L2-derived	skos:closeMatch	R/S (SINE)	Wicker	semapv:ManualMappingCuration	
-DFC:0000169	R4-derived	skos:closeMatch	SINE	Repbase	semapv:ManualMappingCuration	
 DFC:0000169	R4-derived	skos:closeMatch	R/S (SINE)	Wicker	semapv:ManualMappingCuration	
-DFC:0000170	RTE-derived	skos:closeMatch	non-LTR	Repbase	semapv:ManualMappingCuration	
 DFC:0000170	RTE-derived	skos:closeMatch	R	Wicker	semapv:ManualMappingCuration	
-DFC:0000171	SINE	skos:closeMatch	SINE	Repbase	semapv:ManualMappingCuration	
 DFC:0000171	SINE	skos:closeMatch	R/S (SINE)	Wicker	semapv:ManualMappingCuration	
-DFC:0000172	5S-RNA_Promoter	skos:closeMatch	SINE/SINE3	Repbase	semapv:ManualMappingCuration	
 DFC:0000172	5S-RNA_Promoter	skos:closeMatch	R/S (SINE)/S (5S)	Wicker	semapv:ManualMappingCuration	
-DFC:0000174	L2-end	skos:closeMatch	SINE/SINE3	Repbase	semapv:ManualMappingCuration	
 DFC:0000174	L2-end	skos:closeMatch	R/S (SINE)/S (5S)	Wicker	semapv:ManualMappingCuration	
-DFC:0000175	Unknown_LINE-dependent	skos:closeMatch	SINE/SINE3	Repbase	semapv:ManualMappingCuration	
 DFC:0000175	Unknown_LINE-dependent	skos:closeMatch	R/S (SINE)/S (5S)	Wicker	semapv:ManualMappingCuration	
-DFC:0000177	RTE-end	skos:closeMatch	SINE/SINE3	Repbase	semapv:ManualMappingCuration	
 DFC:0000177	RTE-end	skos:closeMatch	R/S (SINE)/S (5S)	Wicker	semapv:ManualMappingCuration	
-DFC:0000181	RTE-end	skos:closeMatch	SINE/SINE3	Repbase	semapv:ManualMappingCuration	
 DFC:0000181	RTE-end	skos:closeMatch	R/S (SINE)/S (5S)	Wicker	semapv:ManualMappingCuration	
-DFC:0000182	7SL-RNA_Promoter	skos:closeMatch	SINE/SINE1	Repbase	semapv:ManualMappingCuration	
 DFC:0000182	7SL-RNA_Promoter	skos:closeMatch	R/S (SINE)/L (7SL)	Wicker	semapv:ManualMappingCuration	
-DFC:0000185	Alu	skos:closeMatch	SINE/SINE1	Repbase	semapv:ManualMappingCuration	
 DFC:0000185	Alu	skos:closeMatch	R/S (SINE)/L (7SL)	Wicker	semapv:ManualMappingCuration	
-DFC:0000189	Unknown_LINE-dependent	skos:closeMatch	SINE/SINEU	Repbase	semapv:ManualMappingCuration	
 DFC:0000189	Unknown_LINE-dependent	skos:closeMatch	R/S (SINE)	Wicker	semapv:ManualMappingCuration	
-DFC:0000192	RTE-end	skos:closeMatch	SINE	Repbase	semapv:ManualMappingCuration	
 DFC:0000192	RTE-end	skos:closeMatch	R/S (SINE)	Wicker	semapv:ManualMappingCuration	
-DFC:0000194	RTE-end	skos:closeMatch	SINE	Repbase	semapv:ManualMappingCuration	
 DFC:0000194	RTE-end	skos:closeMatch	R/S (SINE)	Wicker	semapv:ManualMappingCuration	
-DFC:0000195	Unknown_LINE-dependent	skos:closeMatch	SINE	Repbase	semapv:ManualMappingCuration	
 DFC:0000195	Unknown_LINE-dependent	skos:closeMatch	R/S (SINE)	Wicker	semapv:ManualMappingCuration	
-DFC:0000198	RTE-end	skos:closeMatch	SINE/SINE2	Repbase	semapv:ManualMappingCuration	
 DFC:0000198	RTE-end	skos:closeMatch	R/S (SINE)/T (tRNA)	Wicker	semapv:ManualMappingCuration	
-DFC:0000199	Unknown_LINE-dependent	skos:closeMatch	SINE/SINE2	Repbase	semapv:ManualMappingCuration	
 DFC:0000199	Unknown_LINE-dependent	skos:closeMatch	R/S (SINE)/T (tRNA)	Wicker	semapv:ManualMappingCuration	
-DFC:0000201	CR1-end	skos:closeMatch	SINE/SINE2	Repbase	semapv:ManualMappingCuration	
 DFC:0000201	CR1-end	skos:closeMatch	R/S (SINE)/T (tRNA)	Wicker	semapv:ManualMappingCuration	
-DFC:0000203	L2-end	skos:closeMatch	SINE/SINE2	Repbase	semapv:ManualMappingCuration	
 DFC:0000203	L2-end	skos:closeMatch	R/S (SINE)/T (tRNA)	Wicker	semapv:ManualMappingCuration	
-DFC:0000205	Unknown_LINE-dependent	skos:closeMatch	SINE/SINE2	Repbase	semapv:ManualMappingCuration	
 DFC:0000205	Unknown_LINE-dependent	skos:closeMatch	R/S (SINE)/T (tRNA)	Wicker	semapv:ManualMappingCuration	
-DFC:0000207	L2-end	skos:closeMatch	SINE/SINE2	Repbase	semapv:ManualMappingCuration	
 DFC:0000207	L2-end	skos:closeMatch	R/S (SINE)	Wicker	semapv:ManualMappingCuration	
-DFC:0000208	Mermaid	skos:closeMatch	SINE/SINE2	Repbase	semapv:ManualMappingCuration	
 DFC:0000208	Mermaid	skos:closeMatch	R/S (SINE)/T (tRNA)	Wicker	semapv:ManualMappingCuration	
-DFC:0000209	RTE-end	skos:closeMatch	SINE/SINE2	Repbase	semapv:ManualMappingCuration	
 DFC:0000209	RTE-end	skos:closeMatch	R/S (SINE)/T (tRNA)	Wicker	semapv:ManualMappingCuration	
-DFC:0000210	Unknown_LINE-dependent	skos:closeMatch	SINE/SINE2	Repbase	semapv:ManualMappingCuration	
 DFC:0000210	Unknown_LINE-dependent	skos:closeMatch	R/S (SINE)/T (tRNA)	Wicker	semapv:ManualMappingCuration	
-DFC:0000212	Unknown_LINE-dependent	skos:closeMatch	SINE/SINE2	Repbase	semapv:ManualMappingCuration	
 DFC:0000212	Unknown_LINE-dependent	skos:closeMatch	R/S (SINE)/T (tRNA)	Wicker	semapv:ManualMappingCuration	
-DFC:0000214	L1-dependent	skos:closeMatch	SINE	Repbase	semapv:ManualMappingCuration	
 DFC:0000214	L1-dependent	skos:closeMatch	R/S (SINE)	Wicker	semapv:ManualMappingCuration	
-DFC:0000215	B2	skos:closeMatch	SINE/SINE1	Repbase	semapv:ManualMappingCuration	
 DFC:0000215	B2	skos:closeMatch	R/S (SINE)/L (7SL)	Wicker	semapv:ManualMappingCuration	
-DFC:0000217	BovB-end	skos:closeMatch	SINE	Repbase	semapv:ManualMappingCuration	
 DFC:0000217	BovB-end	skos:closeMatch	R/S (SINE)	Wicker	semapv:ManualMappingCuration	
-DFC:0000218	CR1-end	skos:closeMatch	SINE/SINE2	Repbase	semapv:ManualMappingCuration	
 DFC:0000218	CR1-end	skos:closeMatch	R/S (SINE)/T (tRNA)	Wicker	semapv:ManualMappingCuration	
-DFC:0000219	I-end	skos:closeMatch	SINE/SINE2	Repbase	semapv:ManualMappingCuration	
 DFC:0000219	I-end	skos:closeMatch	R/S (SINE)/T (tRNA)	Wicker	semapv:ManualMappingCuration	
-DFC:0000220	Jockey-end	skos:closeMatch	SINE/SINE2	Repbase	semapv:ManualMappingCuration	
 DFC:0000220	Jockey-end	skos:closeMatch	R/S (SINE)/T (tRNA)	Wicker	semapv:ManualMappingCuration	
-DFC:0000221	L1-dependent	skos:closeMatch	SINE/SINE2	Repbase	semapv:ManualMappingCuration	
 DFC:0000221	L1-dependent	skos:closeMatch	R/S (SINE)/T (tRNA)	Wicker	semapv:ManualMappingCuration	
-DFC:0000222	L2-end	skos:closeMatch	SINE/SINE2	Repbase	semapv:ManualMappingCuration	
 DFC:0000222	L2-end	skos:closeMatch	R/S (SINE)/T (tRNA)	Wicker	semapv:ManualMappingCuration	
-DFC:0000223	R1-end	skos:closeMatch	SINE	Repbase	semapv:ManualMappingCuration	
 DFC:0000223	R1-end	skos:closeMatch	R/S (SINE)	Wicker	semapv:ManualMappingCuration	
-DFC:0000224	R2-end	skos:closeMatch	SINE/SINE2	Repbase	semapv:ManualMappingCuration	
 DFC:0000224	R2-end	skos:closeMatch	R/S (SINE)/T (tRNA)	Wicker	semapv:ManualMappingCuration	
-DFC:0000225	RTE-end	skos:closeMatch	SINE/SINE2	Repbase	semapv:ManualMappingCuration	
 DFC:0000225	RTE-end	skos:closeMatch	R/S (SINE)/T (tRNA)	Wicker	semapv:ManualMappingCuration	
-DFC:0000226	Rex-end	skos:closeMatch	SINE/SINE2	Repbase	semapv:ManualMappingCuration	
 DFC:0000226	Rex-end	skos:closeMatch	R/S (SINE)/T (tRNA)	Wicker	semapv:ManualMappingCuration	
-DFC:0000227	Tad1_End	skos:closeMatch	SINE/SINE2	Repbase	semapv:ManualMappingCuration	
-DFC:0000227	Tad1_End	skos:closeMatch	R/S (SINE)/T (tRNA)	Wicker	semapv:ManualMappingCuration	
-DFC:0000228	Unknown_LINE-dependent	skos:closeMatch	SINE/SINE2	Repbase	semapv:ManualMappingCuration	
+DFC:0000227	Tad1-end	skos:closeMatch	R/S (SINE)/T (tRNA)	Wicker	semapv:ManualMappingCuration	
 DFC:0000228	Unknown_LINE-dependent	skos:closeMatch	R/S (SINE)/T (tRNA)	Wicker	semapv:ManualMappingCuration	
-DFC:0000230	L2-end	skos:closeMatch	SINE/SINE2	Repbase	semapv:ManualMappingCuration	
 DFC:0000230	L2-end	skos:closeMatch	R/S (SINE)/T (tRNA)	Wicker	semapv:ManualMappingCuration	
-DFC:0000231	RTE-end	skos:closeMatch	SINE/SINE2	Repbase	semapv:ManualMappingCuration	
 DFC:0000231	RTE-end	skos:closeMatch	R/S (SINE)/T (tRNA)	Wicker	semapv:ManualMappingCuration	
-DFC:0000232	Unknown_LINE-dependent	skos:closeMatch	SINE/SINE2	Repbase	semapv:ManualMappingCuration	
 DFC:0000232	Unknown_LINE-dependent	skos:closeMatch	R/S (SINE)/T (tRNA)	Wicker	semapv:ManualMappingCuration	
-DFC:0000234	CR1-end	skos:closeMatch	SINE/SINE2	Repbase	semapv:ManualMappingCuration	
 DFC:0000234	CR1-end	skos:closeMatch	R/S (SINE)/T (tRNA)	Wicker	semapv:ManualMappingCuration	
-DFC:0000235	L2-end	skos:closeMatch	SINE/SINE2	Repbase	semapv:ManualMappingCuration	
 DFC:0000235	L2-end	skos:closeMatch	R/S (SINE)/T (tRNA)	Wicker	semapv:ManualMappingCuration	
-DFC:0000236	RTE-end	skos:closeMatch	SINE/SINE2	Repbase	semapv:ManualMappingCuration	
 DFC:0000236	RTE-end	skos:closeMatch	R/S (SINE)/T (tRNA)	Wicker	semapv:ManualMappingCuration	
-DFC:0000237	Unknown_LINE-dependent	skos:closeMatch	SINE/SINE2	Repbase	semapv:ManualMappingCuration	
 DFC:0000237	Unknown_LINE-dependent	skos:closeMatch	R/S (SINE)/T (tRNA)	Wicker	semapv:ManualMappingCuration	
-DFC:0000239	L2-end	skos:closeMatch	SINE/SINE2	Repbase	semapv:ManualMappingCuration	
 DFC:0000239	L2-end	skos:closeMatch	R/S (SINE)/T (tRNA)	Wicker	semapv:ManualMappingCuration	
-DFC:0000245	L1-dependent	skos:closeMatch	SINE/SINE1	Repbase	semapv:ManualMappingCuration	
 DFC:0000245	L1-dependent	skos:closeMatch	R/S (SINE)/L (7SL)?	Wicker	semapv:ManualMappingCuration	
-DFC:0000247	Unknown_LINE-dependent	skos:closeMatch	SINE/SINE2	Repbase	semapv:ManualMappingCuration	
 DFC:0000247	Unknown_LINE-dependent	skos:closeMatch	R/S (SINE)/T (tRNA)	Wicker	semapv:ManualMappingCuration	
-DFC:0000251	Long_Terminal_Repeat_Element	skos:closeMatch	LTR	Repbase	semapv:ManualMappingCuration	
 DFC:0000251	Long_Terminal_Repeat_Element	skos:closeMatch	R/L (LTR)	Wicker	semapv:ManualMappingCuration	
-DFC:0000252	Bel-Pao	skos:closeMatch	LTR/BEL	Repbase	semapv:ManualMappingCuration	
 DFC:0000252	Bel-Pao	skos:closeMatch	R/L (LTR)/B (Bel-Pao)	Wicker	semapv:ManualMappingCuration	
-DFC:0000254	Gypsy	skos:closeMatch	LTR	Repbase	semapv:ManualMappingCuration	
 DFC:0000254	Gypsy	skos:closeMatch	R/L (LTR)/G (Gypsy)	Wicker	semapv:ManualMappingCuration	
-DFC:0000256	Caulimoviridae	skos:closeMatch	LTR	Repbase	semapv:ManualMappingCuration	
 DFC:0000256	Caulimoviridae	skos:closeMatch	R/L (LTR)/R (Retrovirus) ??	Wicker	semapv:ManualMappingCuration	
-DFC:0000257	Retroviridae	skos:closeMatch	LTR	Repbase	semapv:ManualMappingCuration	
 DFC:0000257	Retroviridae	skos:closeMatch	R/L (LTR)	Wicker	semapv:ManualMappingCuration	
-DFC:0000258	Orthoretrovirinae	skos:closeMatch	LTR	Repbase	semapv:ManualMappingCuration	
 DFC:0000258	Orthoretrovirinae	skos:closeMatch	R/L (LTR)/E (ERV)	Wicker	semapv:ManualMappingCuration	
-DFC:0000259	ERV1	skos:closeMatch	LTR/ERV1	Repbase	semapv:ManualMappingCuration	
 DFC:0000259	ERV1	skos:closeMatch	R/L (LTR)/E (ERV)	Wicker	semapv:ManualMappingCuration	
-DFC:0000262	ERV2	skos:closeMatch	LTR/ERV2	Repbase	semapv:ManualMappingCuration	
 DFC:0000262	ERV2	skos:closeMatch	R/L (LTR)/E (ERV)	Wicker	semapv:ManualMappingCuration	
-DFC:0000264	MaLR	skos:closeMatch	LTR/ERV3	Repbase	semapv:ManualMappingCuration	
 DFC:0000264	MaLR	skos:closeMatch	R/L (LTR)/E (ERV)	Wicker	semapv:ManualMappingCuration	
-DFC:0000265	ERV4	skos:closeMatch	LTR/ERV4	Repbase	semapv:ManualMappingCuration	
 DFC:0000265	ERV4	skos:closeMatch	R/L (LTR)/E (ERV)	Wicker	semapv:ManualMappingCuration	
-DFC:0000266	Lenti	skos:closeMatch	LTR/Lentivirus	Repbase	semapv:ManualMappingCuration	
 DFC:0000266	Lenti	skos:closeMatch	R/L (LTR)/E (ERV)	Wicker	semapv:ManualMappingCuration	
-DFC:0000267	Spumaretrovirinae	skos:closeMatch	LTR	Repbase	semapv:ManualMappingCuration	
 DFC:0000267	Spumaretrovirinae	skos:closeMatch	R/L (LTR)/E (ERV)	Wicker	semapv:ManualMappingCuration	
-DFC:0000268	TRIM	skos:closeMatch	LTR	Repbase	semapv:ManualMappingCuration	
 DFC:0000268	TRIM	skos:closeMatch	R/L (LTR)	Wicker	semapv:ManualMappingCuration	
-DFC:0000269	Ty1-Copia	skos:closeMatch	LTR/Copia	Repbase	semapv:ManualMappingCuration	
 DFC:0000269	Ty1-Copia	skos:closeMatch	R/L (LTR)/C (Copia)	Wicker	semapv:ManualMappingCuration	
-DFC:0000270	Penelope-like_Elements	skos:closeMatch	non-LTR/Penelope	Repbase	semapv:ManualMappingCuration	
 DFC:0000270	Penelope-like_Elements	skos:closeMatch	R/P (PLE)/P (Penelope)	Wicker	semapv:ManualMappingCuration	
 DFC:0000270	Penelope-like_Elements	skos:closeMatch	TP-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000280	DIRS	skos:closeMatch	LTR/DIRS	Repbase	semapv:ManualMappingCuration	
 DFC:0000280	DIRS	skos:closeMatch	R/Y (DIRS)/D (DIRS)	Wicker	semapv:ManualMappingCuration	
 DFC:0000280	DIRS	skos:closeMatch	Y-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000281	Q	skos:closeMatch	LTR/DIRS	Repbase	semapv:ManualMappingCuration	
 DFC:0000281	Q	skos:closeMatch	R/Y (DIRS)/D (DIRS)	Wicker	semapv:ManualMappingCuration	
 DFC:0000281	Q	skos:closeMatch	Y-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000282	Ngaro	skos:closeMatch	non-LTR	Repbase	semapv:ManualMappingCuration	
 DFC:0000282	Ngaro	skos:closeMatch	R/Y (DIRS)/N (Ngaro)	Wicker	semapv:ManualMappingCuration	
 DFC:0000282	Ngaro	skos:closeMatch	Y-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
-DFC:0000285	Viper	skos:closeMatch	LTR/DIRS	Repbase	semapv:ManualMappingCuration	
 DFC:0000285	Viper	skos:closeMatch	R/Y (DIRS)/V (Viper)	Wicker	semapv:ManualMappingCuration	
 DFC:0000285	Viper	skos:closeMatch	Y-retrotransposons	Curcio-Derbyshire	semapv:ManualMappingCuration	
