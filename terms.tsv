@@ -1,0 +1,300 @@
+id	label	parent	title	definition	hyperlink	criterion	assignable	placeholder	rm_type	rm_subtype	status	replaced_by	consider	created_in	obsoleted_in	last_path	comment
+DFC:0000001	Accidental		Accidental/spontaneous integration events.				false	false			active			1.0.0			
+DFC:0000002	Normally_Non-integrating_Virus	DFC:0000001	Virus families that are more likely the result of spontaneous integration rather than Retrotranposition.				true	false	Other	DNA_virus	active			1.0.0			
+DFC:0000003	Artifact		Elements often found in cloning vectors that may contaminate sequencing projects.				true	false	ARTEFACT		active			1.0.0			
+DFC:0000004	Interspersed_Repeat		A repetitive sequence with copies interspersed throughout an organisms genome.				false	false			active			1.0.0			
+DFC:0000005	Pseudogene	DFC:0000004	Duplications of existing genes in an organism.				false	false			active			1.0.0			
+DFC:0000006	RNA	DFC:0000005	Non-translated, small RNA genes often found in high copy number.	Related genes are included			true	false	RNA		active			1.0.0			
+DFC:0000007	rRNA	DFC:0000006	Copies of a ribosomal RNA (rRNA) gene or pseudogene.				true	false	rRNA		active			1.0.0			
+DFC:0000008	scRNA	DFC:0000006					true	false	scRNA		active			1.0.0			
+DFC:0000009	snRNA	DFC:0000006	Copies of a small nuclear RNA (snRNA) gene or pseudogene.	Small nuclear RNAs include 7SK RNA and the U1 to U13. They are dependent on external promoters and are theferore much less frequently involved in the creation of a SINE			true	false	snRNA		active			1.0.0			
+DFC:0000010	tRNA	DFC:0000006	Copies of a transfer RNA (tRNA) gene or pseudogene.	In mammals,  tRNAs copies can occur in relatively large numbers (up to a thousand copies) The boundary between a large number of accidentally retroposed or otherwise duplicated (pseudo)genes and a low copy number SINE (selected on its ability to propagate) is nebulous			true	false	tRNA		active			1.0.0			
+DFC:0000011	Transposable_Element	DFC:0000004	Families that are the direct result of transposition events.				false	false			active			1.0.0			
+DFC:0000012	Class_II_DNA_Transposition	DFC:0000011	Elements that do not require an RNA intermediate in their transposition lifecycle.				false	false			active			1.0.0			
+DFC:0000013	DNA_Polymerase	DFC:0000012					false	false			active			1.0.0			
+DFC:0000014	Casposon	DFC:0000013	Archaeal and bacterial mobile elements at the origin of CRISPR-Cas immunity.	PMID 24884953, 26764427	https://www.ncbi.nlm.nih.gov/pubmed/?term=24884953		true	false	DNA	Casposons	active			1.0.0			
+DFC:0000015	Maverick	DFC:0000013					true	false	DNA	Maverick	active			1.0.0			
+DFC:0000016	Maverick-Mavirus	DFC:0000015		Maverick-Mavirus			true	false	DNA	Maverick-Mavirus	active			1.0.0			
+DFC:0000017	Helicase	DFC:0000012	Circular ssDNA Intermediate.	Circular ssDNA Intermediate			true	false	RC		active			1.0.0			
+DFC:0000018	Helentron	DFC:0000017					true	false	RC	Helentron	active			1.0.0			
+DFC:0000019	Helitron-1	DFC:0000017					true	false	RC	Helitron	active			1.0.0			
+DFC:0000020	Helitron-2	DFC:0000017					true	false	RC	Helitron-2	active			1.0.0			
+DFC:0000021	Transposase	DFC:0000012	DNA transposons with terminal inverted repeats ranging from 6 bp to many kb.	Autonomous elements have a DD(E/D) transposase. Most DNA transposons fall in this class. Some non-autonomous elements, hairpin			true	false	DNA		active			1.0.0			
+DFC:0000022	Academ	DFC:0000021	Academ superfamily of  DNA transposons.	Found in metazoans and fungi, autonomous Academ elements encode a ca 1.5 kb protein containing an XPG exonuclease domain, a Cys8 zinc finger, and a DDE transposase domain unlike those of others. Termini tend to be TAG…CTA and a 3 bp target site is duplicated.			false	false			active			1.0.0			
+DFC:0000023	Academ-1	DFC:0000022	First described family of Academ DNA transposon.				true	false	DNA	Academ-1	active			1.0.0			
+DFC:0000024	Academ-2	DFC:0000022	Second described family of Academ DNA transposon.				true	false	DNA	Academ-2	active			1.0.0			
+DFC:0000025	Academ-H	DFC:0000022	Family of Academ transposons described in rust fungi.				true	false	DNA	Academ-H	active			1.0.0			
+DFC:0000026	CACTA	DFC:0000021	A group of DNA transposons with characteristic CACTA…TAGTG termini.				false	false			active			1.0.0			
+DFC:0000027	CMC	DFC:0000026	CACTA (EnSpm), Mirage, Chapaev group with related DNA transposons.				true	false	DNA	CMC	active			1.0.0			
+DFC:0000028	Chapaev_group	DFC:0000027	Superfamily including  Chapaev and Chapaev-3 elements.				false	false			active			1.0.0			
+DFC:0000029	Chapaev	DFC:0000028	So-far animal-specific elements with a specific DDE transposase.				true	false	DNA	CMC-Chapaev	active			1.0.0			
+DFC:0000030	Chapaev-3	DFC:0000028	So-far animal-specific elements with a specific DDE transposase.				true	false	DNA	CMC-Chapaev-3	active			1.0.0			
+DFC:0000031	EnSpm	DFC:0000027					true	false	DNA	CMC-EnSpm	active			1.0.0			
+DFC:0000032	Mirage	DFC:0000027					true	false	DNA	CMC-Mirage	active			1.0.0			
+DFC:0000033	Transib	DFC:0000026	Group of DNA transposons at the basis of our adaptive immune system.				true	false	DNA	CMC-Transib	active			1.0.0			
+DFC:0000034	Dada	DFC:0000021					true	false	DNA	Dada	active			1.0.0			
+DFC:0000035	Ginger	DFC:0000021					true	false	DNA	Ginger	active			1.0.0			
+DFC:0000036	Ginger-1	DFC:0000035		Ginger-1			true	false	DNA	Ginger-1	active			1.0.0			
+DFC:0000037	Ginger-2	DFC:0000035		Ginger-2			true	false	DNA	Ginger-2	active			1.0.0			
+DFC:0000038	IS3EU	DFC:0000021					true	false	DNA	IS3EU	active			1.0.0			
+DFC:0000039	Kolobok	DFC:0000021					true	false	DNA	Kolobok	active			1.0.0			
+DFC:0000040	Hydra-specific_Branch	DFC:0000039					true	false	DNA	Kolobok-Hydra	active			1.0.0			
+DFC:0000041	Kolobok-E	DFC:0000039					true	false	DNA	Kolobok-E	active			1.0.0			
+DFC:0000042	Kolobok-H	DFC:0000039					true	false	DNA	Kolobok-H	active			1.0.0			
+DFC:0000043	T2	DFC:0000039					true	false	DNA	Kolobok-T2	active			1.0.0			
+DFC:0000044	Merlin	DFC:0000021					true	false	DNA	Merlin	active			1.0.0			
+DFC:0000045	Mutator-like	DFC:0000021	Mutator-like Element aka MULE.	Mutator-like Element aka MULE			true	false	DNA	MULE	active			1.0.0			
+DFC:0000046	F	DFC:0000045					true	false	DNA	MULE-F	active			1.0.0			
+DFC:0000047	MuDR	DFC:0000045					true	false	DNA	MULE-MuDR	active			1.0.0			
+DFC:0000048	NOF	DFC:0000045					true	false	DNA	MULE-NOF	active			1.0.0			
+DFC:0000049	Ricksha	DFC:0000045		Ricksha subclass			true	false	DNA	MULE-Ricksha	active			1.0.0			
+DFC:0000050	Novosib	DFC:0000021					true	false	DNA	Novosib	active			1.0.0			
+DFC:0000051	PIF-Harbinger	DFC:0000021					true	false	DNA	PIF	active			1.0.0			
+DFC:0000052	HarbS	DFC:0000051					true	false	DNA	PIF-HarbS	active			1.0.0			
+DFC:0000053	Harbinger	DFC:0000051					true	false	DNA	PIF-Harbinger	active			1.0.0			
+DFC:0000054	ISL2EU	DFC:0000051					true	false	DNA	PIF-ISL2EU	active			1.0.0			
+DFC:0000055	Spy	DFC:0000051					true	false	DNA	PIF-Spy	active			1.0.0			
+DFC:0000056	P_Element	DFC:0000021					true	false	DNA	P	active			1.0.0			
+DFC:0000057	Fungi-specific_Branch	DFC:0000056					true	false	DNA	P-Fungi	active			1.0.0			
+DFC:0000058	PiggyBac_Group	DFC:0000021					false	false			active			1.0.0			
+DFC:0000059	PiggyBac	DFC:0000058					true	false	DNA	PiggyBac	active			1.0.0			
+DFC:0000060	PiggyBac-A	DFC:0000058					true	false	DNA	PiggyBac-A	active			1.0.0			
+DFC:0000061	PiggyBac-X	DFC:0000058					true	false	DNA	PiggyBac-X	active			1.0.0			
+DFC:0000062	Sola	DFC:0000021					false	false			active			1.0.0			
+DFC:0000063	Sola-1	DFC:0000062					true	false	DNA	Sola-1	active			1.0.0			
+DFC:0000064	Sola-2	DFC:0000062					true	false	DNA	Sola-2	active			1.0.0			
+DFC:0000065	Sola-3	DFC:0000062					true	false	DNA	Sola-3	active			1.0.0			
+DFC:0000066	Tc1-Mariner	DFC:0000021					true	false	DNA	TcMar	active			1.0.0			
+DFC:0000067	Ant1	DFC:0000066	A group of DNA transposons so far limited to fungi.				true	false	DNA	TcMar-Ant1	active			1.0.0			
+DFC:0000068	Cweed	DFC:0000066					true	false	DNA	TcMar-Cweed	active			1.0.0			
+DFC:0000069	Gizmo	DFC:0000066					true	false	DNA	TcMar-Gizmo	active			1.0.0			
+DFC:0000070	IS885	DFC:0000066		TcMar-IS885			true	false	DNA	TcMar-IS885	active			1.0.0			
+DFC:0000071	ISRm11	DFC:0000066					true	false	DNA	TcMar-ISRm11	active			1.0.0			
+DFC:0000072	Mariner	DFC:0000066					true	false	DNA	TcMar-Mariner	active			1.0.0			
+DFC:0000073	Mogwai	DFC:0000066					true	false	DNA	TcMar-Mogwai	active			1.0.0			
+DFC:0000074	Sagan	DFC:0000066					true	false	DNA	TcMar-Sagan	active			1.0.0			
+DFC:0000075	Stowaway	DFC:0000066					true	false	DNA	TcMar-Stowaway	active			1.0.0			
+DFC:0000076	Tc1	DFC:0000066					true	false	DNA	TcMar-Tc1	active			1.0.0			
+DFC:0000077	Tc2-group	DFC:0000066	Containing the sister clades of Tc2, Pogo, Fot1, and Tigger DNA transposons.				false	false			active			1.0.0			
+DFC:0000078	Fot1	DFC:0000077					true	false	DNA	TcMar-Fot1	active			1.0.0			
+DFC:0000079	Pogo	DFC:0000077					true	false	DNA	TcMar-Pogo	active			1.0.0			
+DFC:0000080	Tc2	DFC:0000077					true	false	DNA	TcMar-Tc2	active			1.0.0			
+DFC:0000081	Tigger	DFC:0000077	So far animal-specific mariner-like elements with the mammalian Tigger1 as type specimen.				true	false	DNA	TcMar-Tigger	active			1.0.0			
+DFC:0000082	Tc4	DFC:0000066					true	false	DNA	TcMar-Tc4	active			1.0.0			
+DFC:0000083	m44	DFC:0000066					true	false	DNA	TcMar-m44	active			1.0.0			
+DFC:0000084	Zator	DFC:0000021					true	false	DNA	Zator	active			1.0.0			
+DFC:0000085	Zisupton	DFC:0000021					true	false	DNA	Zisupton	active			1.0.0			
+DFC:0000086	hAT	DFC:0000021	hobo Activator Tam3 Elements.	hobo Activator Tam3 Elements			true	false	DNA	hAT	active			1.0.0			
+DFC:0000087	Activator	DFC:0000086	A large class in plants and animals named after the maize element.				true	false	DNA	hAT-Ac	active			1.0.0			
+DFC:0000088	Blackjack	DFC:0000086	A group of hAT transposons possibly closest to Charlie elements.				true	false	DNA	hAT-Blackjack	active			1.0.0			
+DFC:0000089	Charlie	DFC:0000086	Mostly animal-specific hAT transposons with the mammalian Charlie1 as type specimen.				true	false	DNA	hAT-Charlie	active			1.0.0			
+DFC:0000090	Pegasus	DFC:0000086					true	false	DNA	hAT-Pegasus	active			1.0.0			
+DFC:0000091	Restless	DFC:0000086					true	false	DNA	hAT-Restless	active			1.0.0			
+DFC:0000092	Tag1	DFC:0000086					true	false	DNA	hAT-Tag1	active			1.0.0			
+DFC:0000093	Tip100	DFC:0000086	Widespread class of hAT elements, including the Arthur and Zaphod elements in ancient mammals.				true	false	DNA	hAT-Tip100	active			1.0.0			
+DFC:0000094	hAT1	DFC:0000086					true	false	DNA	hAT-hAT1	active			1.0.0			
+DFC:0000095	hAT19	DFC:0000086					true	false	DNA	hAT-hAT19	active			1.0.0			
+DFC:0000096	hAT5	DFC:0000086					true	false	DNA	hAT-hAT5	active			1.0.0			
+DFC:0000097	hAT6	DFC:0000086					true	false	DNA	hAT-hAT6	active			1.0.0			
+DFC:0000098	hATm	DFC:0000086					true	false	DNA	hAT-hATm	active			1.0.0			
+DFC:0000099	hATw	DFC:0000086					true	false	DNA	hAT-hATw	active			1.0.0			
+DFC:0000100	hATx	DFC:0000086					true	false	DNA	hAT-hATx	active			1.0.0			
+DFC:0000101	hobo	DFC:0000086					true	false	DNA	hAT-hobo	active			1.0.0			
+DFC:0000102	Tyrosine_Recombinase	DFC:0000012					false	false			active			1.0.0			
+DFC:0000103	Crypton	DFC:0000102					true	false	DNA	Crypton	active			1.0.0			
+DFC:0000104	Crypton-A	DFC:0000103					true	false	DNA	Crypton-A	active			1.0.0			
+DFC:0000105	Crypton-C	DFC:0000103					true	false	DNA	Crypton-C	active			1.0.0			
+DFC:0000106	Crypton-F	DFC:0000103					true	false	DNA	Crypton-F	active			1.0.0			
+DFC:0000107	Crypton-H	DFC:0000103					true	false	DNA	Crypton-H	active			1.0.0			
+DFC:0000108	Crypton-I	DFC:0000103					true	false	DNA	Crypton-I	active			1.0.0			
+DFC:0000109	Crypton-R	DFC:0000103					true	false	DNA	Crypton-R	active			1.0.0			
+DFC:0000110	Crypton-S	DFC:0000103					true	false	DNA	Crypton-S	active			1.0.0			
+DFC:0000111	Crypton-V	DFC:0000103					true	false	DNA	Crypton-V	active			1.0.0			
+DFC:0000112	Crypton-X	DFC:0000103					true	false	DNA	Crypton-X	active			1.0.0			
+DFC:0000113	Class_I_Retrotransposition	DFC:0000011	Elements that require an RNA intermediate in their transposition lifecycle.				false	false			active			1.0.0			
+DFC:0000114	LINE	DFC:0000113	Long Interspersed Nuclear Element.		https://en.wikipedia.org/wiki/Long_interspersed_nuclear_element		true	false	LINE		active			1.0.0			
+DFC:0000115	Group-I	DFC:0000114	Based on reverse transcriptase phylogeny, an outlier group containing the Ambal, CRE and Odin LINE elements.				false	false			active			1.0.0			
+DFC:0000116	Ambal	DFC:0000115	A group of LINE  so far specific to Diatoms.				true	false	LINE	CRE-Ambal	active			1.0.0			
+DFC:0000117	CRE	DFC:0000115					true	false	LINE	CRE	active			1.0.0			
+DFC:0000118	CRE-1	DFC:0000117					true	false	LINE	CRE-1	active			1.0.0			
+DFC:0000119	CRE-2	DFC:0000117					true	false	LINE	CRE-2	active			1.0.0			
+DFC:0000120	Odin	DFC:0000115					true	false	LINE	CRE-Odin	active			1.0.0			
+DFC:0000121	Group-II	DFC:0000114	The bulk of the LINE elements.				false	false			active			1.0.0			
+DFC:0000122	Genie	DFC:0000121					true	false	LINE	Genie	active			1.0.0			
+DFC:0000123	Group-1	DFC:0000121	Containing the sister classes of Proto-1, L1-like, R2-like, and R4-like LINE elements.				false	false			active			1.0.0			
+DFC:0000124	L1-like	DFC:0000123	Containing the sister classes of DRE, L1, Tx1, and Zorro LINE elements.				false	false			active			1.0.0			
+DFC:0000125	DRE	DFC:0000124					true	false	LINE	L1-DRE	active			1.0.0			
+DFC:0000126	L1-group	DFC:0000124	Containing the closely related L1 and Tx1 LINE elements.				false	false			active			1.0.0			
+DFC:0000127	L1	DFC:0000126	A large group of LINE elements with mammalian LINE-1 (L1) as type specimen.				true	false	LINE	L1	active			1.0.0			
+DFC:0000128	Tx1	DFC:0000126					true	false	LINE	L1-Tx1	active			1.0.0			
+DFC:0000129	Zorro	DFC:0000124					true	false	LINE	L1-Zorro	active			1.0.0			
+DFC:0000130	Proto-1	DFC:0000123					true	false	LINE	Proto1	active			1.0.0			
+DFC:0000131	R2-like	DFC:0000123	Containing the sister clades of R2, Hero and NeSL LINEs.				false	false			active			1.0.0			
+DFC:0000132	Hero	DFC:0000131					true	false	LINE	R2-Hero	active			1.0.0			
+DFC:0000133	NeSL	DFC:0000131					true	false	LINE	R2-NeSL	active			1.0.0			
+DFC:0000134	R2	DFC:0000131					true	false	LINE	R2	active			1.0.0			
+DFC:0000135	R4-like	DFC:0000123	Containing the sister clades of Deceiver, Dong-R4, and Dualen LINE elements.				false	false			active			1.0.0			
+DFC:0000136	Deceiver	DFC:0000135					true	false	LINE	Deceiver	active			1.0.0			
+DFC:0000137	Dong-R4	DFC:0000135					true	false	LINE	Dong-R4	active			1.0.0			
+DFC:0000138	Dualen	DFC:0000135					true	false	LINE	Dualen	active			1.0.0			
+DFC:0000139	Group-2	DFC:0000121	Containing the sister classes of Proto-2, R1-like, and RTE-like LINE elements.				false	false			active			1.0.0			
+DFC:0000140	Proto-2	DFC:0000139					true	false	LINE	Proto2	active			1.0.0			
+DFC:0000141	R1-like	DFC:0000139	Containing Tad1, CR1-related and R1-related LINEs.				false	false			active			1.0.0			
+DFC:0000142	CR1-group	DFC:0000141	Containing the sister classes of CR1, L2 and Rex-Babar LINEs.				false	false			active			1.0.0			
+DFC:0000143	CR1	DFC:0000142	A large group of LINE elements with Chicken Repeat 1 (CR1) as type specimen.				true	false	LINE	CR1	active			1.0.0			
+DFC:0000144	Zenon	DFC:0000143					true	false	LINE	CR1-Zenon	active			1.0.0			
+DFC:0000145	L2-group	DFC:0000142	A large group of L2-like elements that can still need to be subclassified.				false	false			active			1.0.0			
+DFC:0000146	L2	DFC:0000145	A large group of LINE elements with mammalian LINE-2 (L2) as type specimen.				true	false	LINE	L2	active			1.0.0			
+DFC:0000147	Rex-Babar	DFC:0000142					true	false	LINE	Rex-Babar	active			1.0.0			
+DFC:0000148	R1-group	DFC:0000141	Containing the I, Jockey, LOA and R1 LINEs.				false	false			active			1.0.0			
+DFC:0000149	I-group	DFC:0000148	Containing the sister classes of I and Jockey LINE elements.				false	false			active			1.0.0			
+DFC:0000150	I	DFC:0000149					true	false	LINE	I	active			1.0.0			
+DFC:0000151	Jockey	DFC:0000149					true	false	LINE	I-Jockey	active			1.0.0			
+DFC:0000152	R1-subgroup	DFC:0000148	Containing the closely related LOA and R1 LINEs.				false	false			active			1.0.0			
+DFC:0000153	LOA	DFC:0000152					true	false	LINE	R1-LOA	active			1.0.0			
+DFC:0000154	R1	DFC:0000152					true	false	LINE	R1	active			1.0.0			
+DFC:0000155	Tad1	DFC:0000141					true	false	LINE	Tad1	active			1.0.0			
+DFC:0000156	RTE-like	DFC:0000139					true	false	LINE	RTE	active			1.0.0			
+DFC:0000157	ORTE	DFC:0000156					true	false	LINE	RTE-ORTE	active			1.0.0			
+DFC:0000158	RTE-group	DFC:0000156					false	false			active			1.0.0			
+DFC:0000159	BovB	DFC:0000158	A subgoup of RTE elements with the bovine BovB as the type specimen.				true	false	LINE	RTE-BovB	active			1.0.0			
+DFC:0000160	RTE	DFC:0000158					true	false	LINE	RTE-RTE	active			1.0.0			
+DFC:0000161	RTE-X	DFC:0000158					true	false	LINE	RTE-X	active			1.0.0			
+DFC:0000162	LINE-dependent_Retroposon	DFC:0000113					false	false			active			1.0.0			
+DFC:0000163	Lacking_Small_RNA_pol_III_Promoter	DFC:0000162					true	false	Retroposon		active			1.0.0			
+DFC:0000164	I-derived	DFC:0000163	Nonautonomous retroposons derived from I-type LINEs.				true	false	Retroposon	I-derived	active			1.0.0			
+DFC:0000165	L1-dependent	DFC:0000163	A retroposon mobilized by an L1-type LINE.				true	false	Retroposon	L1-dep	active			1.0.0			
+DFC:0000166	SVA	DFC:0000165					true	false	Retroposon	SVA	active			1.0.0			
+DFC:0000167	L1-derived	DFC:0000163	Nonautonomous retroposons derived from L1-type LINEs.				true	false	Retroposon	L1-derived	active			1.0.0			
+DFC:0000168	L2-derived	DFC:0000163	Nonautonomous retroposons derived from L2-type LINEs.				true	false	Retroposon	L2-derived	active			1.0.0			
+DFC:0000169	R4-derived	DFC:0000163	Nonautonomous retroposons derived from R4-type LINEs.				true	false	Retroposon	R4-derived	active			1.0.0			
+DFC:0000170	RTE-derived	DFC:0000163	Nonautonomous retroposons derived from RTE-type LINEs.				true	false	Retroposon	RTE-derived	active			1.0.0			
+DFC:0000171	SINE	DFC:0000162	Short LINE-dependent retroposons with an internal (usually pol III) promoter.	The median length of described SINEs is ca. 250 bp ±130 bp SD. The canonical SINE has a tRNA 5' end with the internal promoter, a core of unknown function shared with multiple other SINE families, a 3' end identical to that of the LINE responsible for its mobility, and a simple repeat tail. A few SINEs have a LINE-derived internal pol II promoter, and many lack either or both the core and LINE-derived regions.	https://en.wikipedia.org/wiki/Retrotransposon#SINEs		true	false	SINE		active			1.0.0			
+DFC:0000172	5S-RNA_Promoter	DFC:0000171	SINEs with an internal promoter derived from 5S RNA.				true	false	SINE	5S	active			1.0.0			
+DFC:0000173	Deu-core	DFC:0000172	Animal-wide conserved SINE central region, with the core of the ancient AmnSINE1 as type specimen.				false	false			active			1.0.0			
+DFC:0000174	L2-end	DFC:0000173	SINE with a 3' end derived from a L2-type LINE.				true	false	SINE	5S-Deu-L2	active			1.0.0			
+DFC:0000175	Unknown_LINE-dependent	DFC:0000173					true	false	SINE	5S-Deu	active			1.0.0			
+DFC:0000176	MIR-core	DFC:0000172	SINE with a conserved central core region originally described for MIR.				false	false			active			1.0.0			
+DFC:0000177	RTE-end	DFC:0000176	SINE with a 3' end derived from an RTE-type LINE.				true	false	SINE	5S-Core-RTE	active			1.0.0			
+DFC:0000178	No_or_Unknown_Core	DFC:0000172	SINEs lacking a central region or with central region yet unrelated to that of other SINEs.				false	false			active			1.0.0			
+DFC:0000179	RTE-end	DFC:0000178	SINE with a 3' end derived from an RTE-type LINE.				true	false	SINE	5S-RTE	active			1.0.0			
+DFC:0000180	Sauria-core	DFC:0000172	Conserved central region so far limited to squamate SINEs.				false	false			active			1.0.0			
+DFC:0000181	RTE-end	DFC:0000180	SINE with a 3' end derived from an RTE-type LINE.				true	false	SINE	5S-Sauria-RTE	active			1.0.0			
+DFC:0000182	7SL-RNA_Promoter	DFC:0000171	SINEs with an internal promoter derived from 7SL RNA.				true	false	SINE	7SL	active			1.0.0			
+DFC:0000183	No-core	DFC:0000182	SINEs lacking a central region.				false	false			active			1.0.0			
+DFC:0000184	L1-dependent	DFC:0000183	A retroposon mobilized by an L1-type LINE.				false	false			active			1.0.0			
+DFC:0000185	Alu	DFC:0000184	A SINE family specific to primates and rodents.				true	false	SINE	Alu	active			1.0.0			
+DFC:0000186	U-RNA_Promoter	DFC:0000171	SINEs with an internal promoter derived from a spliceosomal U-RNA.				false	false			active			1.0.0			
+DFC:0000187	No_or_Unknown_Core	DFC:0000186	SINEs lacking a central region or with central region yet unrelated to that of other SINEs.				false	false			active			1.0.0			
+DFC:0000188	L1-dependent	DFC:0000187					true	false	SINE	U-L1	active			1.0.0			
+DFC:0000189	Unknown_LINE-dependent	DFC:0000187					true	false	SINE	U	active			1.0.0			
+DFC:0000190	Unknown_Promoter	DFC:0000171					false	false			active			1.0.0			
+DFC:0000191	Ceph-core	DFC:0000190	Containing a SINE core originally discovered in Cephalopod SINEs.				false	false			active			1.0.0			
+DFC:0000192	RTE-end	DFC:0000191	SINE with a 3' end derived from an RTE-type LINE.				true	false	SINE	Ceph	active			1.0.0			
+DFC:0000193	MIR-core	DFC:0000190	SINE with a conserved central core region originally described for MIR.				false	false			active			1.0.0			
+DFC:0000194	RTE-end	DFC:0000193	SINE with a 3' end derived from an RTE-type LINE.				true	false	SINE	Core-RTE	active			1.0.0			
+DFC:0000195	Unknown_LINE-dependent	DFC:0000193					true	false	SINE	Core	active			1.0.0			
+DFC:0000196	tRNA_Promoter	DFC:0000171	SINEs with an internal promoter derived from a tRNA.				false	false			active			1.0.0			
+DFC:0000197	Ceph-core	DFC:0000196	Containing a SINE core originally discovered in Cephalopod SINEs.				false	false			active			1.0.0			
+DFC:0000198	RTE-end	DFC:0000197	SINE with a 3' end derived from an RTE-type LINE.				true	false	SINE	tRNA-Ceph-RTE	active			1.0.0			
+DFC:0000199	Unknown_LINE-dependent	DFC:0000197					true	false	SINE	tRNA-Ceph	active			1.0.0			
+DFC:0000200	Deu-core	DFC:0000196	Animal-wide conserved SINE central region, with the core of the ancient AmnSINE1 as type specimen.				false	false			active			1.0.0			
+DFC:0000201	CR1-end	DFC:0000200	SINE with a 3' end derived from a CR1-type LINE.				true	false	SINE	tRNA-Deu-CR1	active			1.0.0			
+DFC:0000202	I-end	DFC:0000200	SINE with a 3' end derived from a I-type LINE.				true	false	SINE	tRNA-Deu-I	active			1.0.0			
+DFC:0000203	L2-end	DFC:0000200	SINE with a 3' end derived from a L2-type LINE.				true	false	SINE	tRNA-Deu-L2	active			1.0.0			
+DFC:0000204	RTE-end	DFC:0000200	SINE with a 3' end derived from an RTE-type LINE.				true	false	SINE	tRNA-Deu-RTE	active			1.0.0			
+DFC:0000205	Unknown_LINE-dependent	DFC:0000200					true	false	SINE	tRNA-Deu	active			1.0.0			
+DFC:0000206	MIR-core	DFC:0000196	SINE with a conserved central core region originally described for MIR.				false	false			active			1.0.0			
+DFC:0000207	L2-end	DFC:0000206	SINE with a 3' end derived from a L2-type LINE.				true	false	SINE	MIR	active			1.0.0			
+DFC:0000208	Mermaid	DFC:0000206					true	false	SINE	tRNA-Mermaid	active			1.0.0			
+DFC:0000209	RTE-end	DFC:0000206	SINE with a 3' end derived from an RTE-type LINE.				true	false	SINE	tRNA-Core-RTE	active			1.0.0			
+DFC:0000210	Unknown_LINE-dependent	DFC:0000206					true	false	SINE	tRNA-Core	active			1.0.0			
+DFC:0000211	Meta-core	DFC:0000196	Animal-wide conserved SINE central region.		https://www.ncbi.nlm.nih.gov/pubmed/?term=26872770		false	false			active			1.0.0			
+DFC:0000212	Unknown_LINE-dependent	DFC:0000211					true	false	SINE	tRNA-Meta	active			1.0.0			
+DFC:0000213	No-core	DFC:0000196	SINEs lacking a central region.				false	false			active			1.0.0			
+DFC:0000214	L1-dependent	DFC:0000213	A retroposon mobilized by an L1-type LINE.				true	false	SINE	ID	active			1.0.0			
+DFC:0000215	B2	DFC:0000214	A rodent specific SINE family.				true	false	SINE	B2	active			1.0.0			
+DFC:0000216	No_or_Unknown_Core	DFC:0000196	SINEs lacking a central region or with central region yet unrelated to that of other SINEs.				false	false			active			1.0.0			
+DFC:0000217	BovB-end	DFC:0000216	SINE with a 3' end derived from a BovB-type LINE.				true	false	SINE	RTE-BovB	active			1.0.0			
+DFC:0000218	CR1-end	DFC:0000216	SINE with a 3' end derived from a CR1-type LINE.				true	false	SINE	tRNA-CR1	active			1.0.0			
+DFC:0000219	I-end	DFC:0000216	SINE with a 3' end derived from a I-type LINE.				true	false	SINE	tRNA-I	active			1.0.0			
+DFC:0000220	Jockey-end	DFC:0000216					true	false	SINE	tRNA-Jockey	active			1.0.0			
+DFC:0000221	L1-dependent	DFC:0000216	A retroposon mobilized by an L1-type LINE.				true	false	SINE	tRNA-L1	active			1.0.0			
+DFC:0000222	L2-end	DFC:0000216	SINE with a 3' end derived from a L2-type LINE.				true	false	SINE	tRNA-L2	active			1.0.0			
+DFC:0000223	R1-end	DFC:0000216	SINE with a 3' end derived from an R1-type LINE.				true	false	SINE	R1	active			1.0.0			
+DFC:0000224	R2-end	DFC:0000216	SINE with a 3' end derived from an R2-type LINE.				true	false	SINE	tRNA-R2	active			1.0.0			
+DFC:0000225	RTE-end	DFC:0000216	SINE with a 3' end derived from an RTE-type LINE.				true	false	SINE	tRNA-RTE	active			1.0.0			
+DFC:0000226	Rex-end	DFC:0000216	SINE with a 3' end derived from an Rex-type LINE.				true	false	SINE	tRNA-Rex	active			1.0.0			
+DFC:0000227	Tad1_End	DFC:0000216	SINE with a 3' end derived from a Tad1-type LINE.				true	false	SINE	tRNA-Tad1	active			1.0.0			
+DFC:0000228	Unknown_LINE-dependent	DFC:0000216					true	false	SINE	tRNA	active			1.0.0			
+DFC:0000229	Sauria-core	DFC:0000196	Conserved central region so far limited to squamate SINEs.				false	false			active			1.0.0			
+DFC:0000230	L2-end	DFC:0000229	SINE with a 3' end derived from a L2-type LINE.				true	false	SINE	tRNA-Sauria-L2	active			1.0.0			
+DFC:0000231	RTE-end	DFC:0000229	SINE with a 3' end derived from an RTE-type LINE.				true	false	SINE	tRNA-Sauria-RTE	active			1.0.0			
+DFC:0000232	Unknown_LINE-dependent	DFC:0000229					true	false	SINE	tRNA-Sauria	active			1.0.0			
+DFC:0000233	V-core	DFC:0000196					false	false			active			1.0.0			
+DFC:0000234	CR1-end	DFC:0000233	SINE with a 3' end derived from a CR1-type LINE.				true	false	SINE	tRNA-V-CR1	active			1.0.0			
+DFC:0000235	L2-end	DFC:0000233					true	false	SINE	tRNA-V-L2	active			1.0.0			
+DFC:0000236	RTE-end	DFC:0000233		RTE-end			true	false	SINE	tRNA-V-RTE	active			1.0.0			
+DFC:0000237	Unknown_LINE-dependent	DFC:0000233					true	false	SINE	tRNA-V	active			1.0.0			
+DFC:0000238	V_and_MIR-core	DFC:0000196					false	false			active			1.0.0			
+DFC:0000239	L2-end	DFC:0000238	SINE with a 3' end derived from a L2-type LINE.				true	false	SINE	tRNA-V-Core-L2	active			1.0.0			
+DFC:0000240	tRNA_and_5S_RNA	DFC:0000171	SINEs retaining fragment of both a tRNA and 5S RNA; promoter can come from either.				false	false			active			1.0.0			
+DFC:0000241	No_or_Unknown_Core	DFC:0000240	SINEs lacking a central region or with central region yet unrelated to that of other SINEs.				false	false			active			1.0.0			
+DFC:0000242	Unknown_LINE-dependent	DFC:0000241					true	false	SINE	tRNA-5S	active			1.0.0			
+DFC:0000243	tRNA_and_7SL_RNA	DFC:0000171	SINEs retaining fragment of both a tRNA and 7SL RNA; promoter can come from either.				false	false			active			1.0.0			
+DFC:0000244	No-core	DFC:0000243	SINEs lacking a central region.				false	false			active			1.0.0			
+DFC:0000245	L1-dependent	DFC:0000244	A retroposon mobilized by an L1-type LINE.				true	false	SINE	B4	active			1.0.0			
+DFC:0000246	No_or_Unknown_Core	DFC:0000243	SINEs lacking a central region or with central region yet unrelated to that of other SINEs.				false	false			active			1.0.0			
+DFC:0000247	Unknown_LINE-dependent	DFC:0000246					true	false	SINE	tRNA-7SL	active			1.0.0			
+DFC:0000248	snoRNA	DFC:0000162					true	false	Retroposon	sno	active			1.0.0			
+DFC:0000249	L1-derived	DFC:0000248					true	false	Retroposon	sno-L1	active			1.0.0			
+DFC:0000250	Retrotransposon	DFC:0000113					false	false			active			1.0.0			
+DFC:0000251	Long_Terminal_Repeat_Element	DFC:0000250					true	false	LTR		active			1.0.0			
+DFC:0000252	Bel-Pao	DFC:0000251	The third large group of LTR elements besides Gypsy/ERV and Copia.				true	false	LTR	Pao	active			1.0.0			
+DFC:0000253	Gypsy-ERV	DFC:0000251					false	false			active			1.0.0			
+DFC:0000254	Gypsy	DFC:0000253					true	false	LTR	Gypsy	active			1.0.0			
+DFC:0000255	Pararetroviridae	DFC:0000253					false	false			active			1.0.0			
+DFC:0000256	Caulimoviridae	DFC:0000255	Plant and insect DNA reverse-transcribing viruses lacking a provirus state in their cycle.				true	false	LTR	Caulimovirus	active			1.0.0			
+DFC:0000257	Retroviridae	DFC:0000253					true	false	LTR	Cassandra	active			1.0.0			
+DFC:0000258	Orthoretrovirinae	DFC:0000257					true	false	LTR	ERV	active			1.0.0			
+DFC:0000259	ERV1	DFC:0000258	Exogenous representatives are called Gamma- and Epsilonretroviruses.				true	false	LTR	ERV1	active			1.0.0			
+DFC:0000260	SINE-like	DFC:0000259					true	false	SINE	ERV1	active			1.0.0			
+DFC:0000261	ERV2-group	DFC:0000258	Most endogenous retroviruses not incldued in class I.				false	false			active			1.0.0			
+DFC:0000262	ERV2	DFC:0000261	Exogenous representatives are called Alpha-, Beta- and Delta-viruses.				true	false	LTR	ERVK	active			1.0.0			
+DFC:0000263	ERV3	DFC:0000261	Class 3 endogenous retroviruses with HERVL as type specimen.				true	false	LTR	ERVL	active			1.0.0			
+DFC:0000264	MaLR	DFC:0000263	Mammalian-specific non-autonomous LTR elements dependent on class 3 (ERVL) ERVs .				true	false	LTR	ERVL-MaLR	active			1.0.0			
+DFC:0000265	ERV4	DFC:0000261	A so far non-avian reptile specific class of ERVs.		https://www.ncbi.nlm.nih.gov/pubmed/?term=25499090		true	false	LTR	ERV4	active			1.0.0			
+DFC:0000266	Lenti	DFC:0000261					true	false	LTR	ERV-Lenti	active			1.0.0			
+DFC:0000267	Spumaretrovirinae	DFC:0000257					true	false	LTR	ERV-Foamy	active			1.0.0			
+DFC:0000268	TRIM	DFC:0000251	A placeholder for not-yet-classified non-autonomous LTR elements with short internal sequences.				true	false	LTR	TRIM	active			1.0.0			
+DFC:0000269	Ty1-Copia	DFC:0000251					true	false	LTR	Copia	active			1.0.0			
+DFC:0000270	Penelope-like_Elements	DFC:0000250					true	false	PLE		active			1.0.0			
+DFC:0000271	Athena	DFC:0000270					true	false	PLE	Athena	active			1.0.0			
+DFC:0000272	Chlamys	DFC:0000270					true	false	PLE	Chlamys	active			1.0.0			
+DFC:0000273	Coprina	DFC:0000270					true	false	PLE	Coprina	active			1.0.0			
+DFC:0000274	Hydra	DFC:0000270					true	false	PLE	Hydra	active			1.0.0			
+DFC:0000275	Naiad	DFC:0000270					true	false	PLE	Naiad	active			1.0.0			
+DFC:0000276	Nematis	DFC:0000270					true	false	PLE	Nematis	active			1.0.0			
+DFC:0000277	Neptune	DFC:0000270					true	false	PLE	Neptune	active			1.0.0			
+DFC:0000278	Poseidon	DFC:0000270					true	false	PLE	Poseidon	active			1.0.0			
+DFC:0000279	Tyrosine_Recombinase_Elements	DFC:0000250					false	false			active			1.0.0			
+DFC:0000280	DIRS	DFC:0000279					true	false	LTR	DIRS	active			1.0.0			
+DFC:0000281	Q	DFC:0000280		DIRS-Q subclass			true	false	LTR	DIRS-Q	active			1.0.0			
+DFC:0000282	Ngaro	DFC:0000279					true	false	LTR	Ngaro	active			1.0.0			
+DFC:0000283	Viper-group	DFC:0000279					false	false			active			1.0.0			
+DFC:0000284	TATE	DFC:0000283					true	false	Unknown	TATE	active			1.0.0			
+DFC:0000285	Viper	DFC:0000283					true	false	LTR	Viper	active			1.0.0			
+DFC:0000286	Unknown	DFC:0000004	A placeholder for unknown classes of interspersed repeats.				true	true	Unknown		active			1.0.0			
+DFC:0000287	Centromeric	DFC:0000286	Primarily or only found in centromeric regions.				true	false	Unknown	centromeric	active			1.0.0			
+DFC:0000288	Low_Complexity		Stretches of sequence with unusually simple composition. I.e. AT rich sequence.				true	false	Low_complexity		active			1.0.0			
+DFC:0000289	Other		A placeholder for unknown classes of repetitive sequence.				true	true	Other		active			1.0.0			
+DFC:0000290	Segmental_Duplication		Long segments of DNA with near-identical sequence.				true	false	Segmental		active			1.0.0			
+DFC:0000291	Tandem_Repeat		Repeated stretches of one or more nucleotides directly adjacent to each other.		https://en.wikipedia.org/wiki/Tandem_repeat		false	false			active			1.0.0			
+DFC:0000292	Satellite	DFC:0000291	Medium to long pattern tandem repeats found in long runs.		https://en.wikipedia.org/wiki/Satellite_DNA		true	false	Satellite		active			1.0.0			
+DFC:0000293	Acromeric	DFC:0000292	Satellites occurring specifically in the short arm of acromeric chromosomes.				true	false	Satellite	acromeric	active			1.0.0			
+DFC:0000294	Centromeric	DFC:0000292	Primarily or only found in centromeric regions.				true	false	Satellite	centromeric	active			1.0.0			
+DFC:0000295	Macro	DFC:0000292					true	false	Satellite	macro	active			1.0.0			
+DFC:0000296	Subtelomeric	DFC:0000292					true	false	Satellite	subtelomeric	active			1.0.0			
+DFC:0000297	W-chromosomal	DFC:0000292					true	false	Satellite	W-chromosome	active			1.0.0			
+DFC:0000298	Y-chromosomal	DFC:0000292					true	false	Satellite	Y-chromosome	active			1.0.0			
+DFC:0000299	Simple	DFC:0000291	Short pattern tandem repeats found in short runs.				true	false	Simple_repeat		active			1.0.0			

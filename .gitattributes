@@ -1,0 +1,5 @@
+# Spreadsheet programs on Windows save CRLF; keep the sources LF.
+*.tsv text eol=lf
+last-id text eol=lf
+VERSION text eol=lf
+legacy/* -text

@@ -1,0 +1,26 @@
+name: validate
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # check-previous needs the release tags
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate and build
+        run: make
+      - name: Compare with the previous release
+        run: make check-previous
+      - name: Keep the built files
+        uses: actions/upload-artifact@v4
+        with:
+          name: build
+          path: build/

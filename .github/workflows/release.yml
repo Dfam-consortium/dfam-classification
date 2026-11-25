@@ -1,0 +1,55 @@
+name: release
+
+# Pushing a tag such as v2.0.0 validates, builds and publishes a GitHub
+# release with the built files attached.
+on:
+  push:
+    tags: ["v[0-9]+.[0-9]+.[0-9]+"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Tag must match VERSION
+        run: |
+          version=$(cat VERSION)
+          if [ "v$version" != "$GITHUB_REF_NAME" ]; then
+            echo "tag $GITHUB_REF_NAME does not match VERSION $version" >&2
+            exit 1
+          fi
+      - name: Changelog must have an entry
+        run: |
+          version=$(cat VERSION)
+          awk -v h="## $version" '$0 == h {p = 1; next} /^## / {p = 0} p' \
+            CHANGELOG.md > notes.md
+          if ! grep -q '[^[:space:]]' notes.md; then
+            echo "CHANGELOG.md has no entry for $version" >&2
+            exit 1
+          fi
+      - name: Validate and build
+        run: make
+      - name: releases/ must hold this build
+        run: |
+          version=$(cat VERSION)
+          diff build/TEClasses.tsv "releases/$version/TEClasses.tsv"
+          diff build/paths.tsv "releases/$version/paths.tsv"
+      - name: Compare with the previous release
+        run: make check-previous
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" \
+            --title "Dfam classification $(cat VERSION)" \
+            --notes-file notes.md \
+            build/TEClasses.tsv build/paths.tsv \
+            terms.tsv mappings.sssom.tsv synonyms.tsv
